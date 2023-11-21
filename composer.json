@@ -1,0 +1,42 @@
+{
+	"name": "Horhorist/florem-bikurdi",
+	"type": "flarum-extension",
+	"description": "Kurdish (Northern) language pack for Flarum.",
+	"homepage": "https://github.com/Horhorist/florem-bikurdi",
+	"keywords": [
+		"locale",
+		"flarum",
+		"flarum-locale",
+		"kmr-locale",
+		"kurdish-northern-locale",
+		"kurdish-northern"
+	],
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/Horhorist/florem-bikurdi/issues",
+		"source": "https://github.com/Horhorist/florem-bikurdi"
+	},
+	"require": {
+		"flarum/core": "^1.6"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"flarum-extension": {
+			"title": "Kurdish (Northern)",
+			"category": "language",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "kmr",
+			"title": "Kurdish (Northern)"
+		},
+		"extiverse": {
+			"discuss": ""
+		}
+	}
+}
