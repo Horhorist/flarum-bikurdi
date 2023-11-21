@@ -1,0 +1,33 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+ianm-gravatar:
+  admin:
+    settings:
+      proxy: "" # Original:  
+        title: "Proxy gravatars" # Original: Proxy gravatars
+        helptext: "Bi xwerû, URLên gravatar rasterast ji gravatar.com têne girtin. Ev dihêle ku hemî daxwazên gravatar rasterast ji hêla forumê bixwe ve bêne xizmet kirin." # Original: By default, gravatar URLs are fetched directly from gravatar.com. This enables all gravatar requests to be served directly by the forum itself.
+      replace-flarum-custom:
+        title: "Avatarên xwerû yên ku li Forumê hatine barkirin biguhezînin" # Original: Replace custom avatars uploaded to Forum
+        helptext: "Avatarên xwerû yên ku berê li forumê hatine barkirin bi Gravatar veguherînin" # Original: Replace custom avatars already uploaded to the forum with a Gravatar
+      defaults:
+        title: "Defaults" # Original: Defaults
+        helptext: "Çi diqewime dema ku navnîşana e-nameyê wêneyek Gravatarê ya hevgirtî tune? Gravatar hejmarek vebijarkên çêkirî hene ku hûn dikarin wekî xwerû bikar bînin. Piraniya van bi girtina haşa e-nameya daxwazkirî dixebitin û wê bikar tînin da ku wêneyek mijarê ku ji wê navnîşana e-nameyê re bêhempa ye çêbikin." # Original: What happens when an email address has no matching Gravatar image? Gravatar has a number of built in options which you can use as defaults. Most of these work by taking the requested email hash and using it to generate a themed image that is unique to that email address.
+        mp_label: "mp: (kesê nepenî) xêzeke sade, bi şêwaza kartonî ya kesek (ji hêla e-nameyê ve nayê guhertin)" # Original: mp: (mystery-person) a simple, cartoon-style silhouetted outline of a person (does not vary by email hash)
+        identicon_label: "identicon: qalibek geometrîkî ku li ser bingehek e-name ye" # Original: identicon: a geometric pattern based on an email hash
+        monsterid_label: "monsterid: a generated 'monster' with different colors, faces, etc"
+        wavatar_label: "wavatar: rûyên ku bi taybetmendî û paşnavên cihêreng têne çêkirin" # Original: wavatar: generated faces with differing features and backgrounds
+        retro_label: "retro: rûyên pixelkirî yên bi şêwazê arcade yên 8-bit ên bi heybet hatine çêkirin" # Original: retro: awesome generated, 8-bit arcade-style pixelated faces
+        robohash_label: "robohash: robotek çêkirî bi reng, rû û hwd" # Original: robohash: a generated robot with different colors, faces, etc
+      rating:
+        title: "Rating" # Original: Rating
+        helptext: Gravatar allows users to self-rate their images so that they can indicate if an image is appropriate for a certain audience. By default, only 'G' rated images are displayed unless you indicate that you would like to see higher ratings. You may specify one of the following ratings to request images up to and including that rating.
+        g_label: "g: ji bo pêşandana li ser hemî malperan bi her celeb temaşevanan re maqûl e" # Original: g: suitable for display on all websites with any audience type
+        pg_label: "pg: dibe ku tevgerên bêaqil, kesên ku bi cil û bergên provokatîf li xwe kirine, gotinên biçûk ên sondxwarinê, an şîdeta nerm hebin." # Original: pg: may contain rude gestures, provocatively dressed individuals, the lesser swear words, or mild violence
+        r_label: "r: dibe ku tiştên wek nefsbiçûk, tundûtûjiya tund, tazîbûn, an bikaranîna tiryakê ya dijwar hebin" # Original: r: may contain such things as harsh profanity, intense violence, nudity, or hard drug use
+        x_label: "x: dibe ku dîmenên zayendî yên hişk an şîdetek pir acizker hebe" # Original: x: may contain hardcore sexual imagery or extremely disturbing violence
+      force-default:
+        title: "Force default" # Original: Force default
+        helptext: "Bi zorê bikaranîna setek xwerû, hetta ku haş e-nameyê bi avatarek xwerû ya barkirî ve girêdide" # Original: Forces the use of a default set, even if the email hash links to a custom user uploaded avatar
+  forum:
+    settings:
+      edit-gravatar: "Avatarê li ser gravatar.com birêve bibin" # Original: Manage avatar on gravatar.com

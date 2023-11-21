@@ -1,0 +1,89 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+malago-achievements:
+  forum:
+    achievement_points: "Points" # Original: Points
+    new_achievement_title: "Serkeftina nû!" # Original: New achievement!
+    new_achievement_name: "Suxre" # Original: Achievement
+    new_achievement_close: "Min girt!" # Original: Got it!
+    list_heading: "Achievements" # Original: Achievements
+    achievement_total_points: "Hemî" # Original: Total
+    your_achievements: "Serkeftinên we" # Original: Your achievements
+    other_achievements: "Serkeftinên din" # Original: Other achievements
+    hidden_achievements: "Serkeftinên veşartî" # Original: Hidden achievements
+  admin:
+    achievement_modal:
+      title: "Serkeftinê biafirînin" # Original: Create Achievement
+      name_label: "Nav" # Original: Name
+      name_placeholder: "Navê Serkeftinê" # Original: Achievement Name
+      active_label: "Jîr" # Original: Active
+      hidden_label: "Ji navnîşa hemî destkeftiyan veşêre" # Original: Hide from all achievements list
+      description_label: "Terîf" # Original: Description
+      description_placeholder: "Danasîna Serkeftinê" # Original: Achievement Description
+      variable_label: "Têgûherr" # Original: Variable
+      computation_label: |
+        Variable to calculate: posts, likes, selflikes, discussions, comments, edits, avatar, contains, years
+      computation_placeholder: "Jimare" # Original: Number
+      points_label: "Pûan ji bo vê serkeftinê" # Original: Points for this achievement
+      points_placeholder: |
+        0
+      image_label: "URL-ya wêneyê an koda îkonê" # Original: Image URL or icon code
+      image_placeholder: "URL-ya Wêne ya Serkeftinê" # Original: Achievement Image URL
+      row_label: "Bêrkirin" # Original: Row
+      row_placeholder: "0" # Original: 0
+      col_label: "Ling" # Original: Column
+      col_placeholder: "0" # Original: 0
+      width_label: "Firehiya wêneyê" # Original: Image width
+      width_placeholder: "32" # Original: 32
+      height_label: "Bilindahiya wêneyê" # Original: Image height
+      height_placeholder: "32" # Original: 32
+      submit_button: => core.ref.save_changes
+      delete_button: "Delete Achievement" # Original: Delete Achievement
+      delete_confirmation: "Ma tu bi rastî dixwazî ​​vê destkeftiyê jê bibî?" # Original: Are you sure you want to delete this achievement?
+      add_delete_title: "Serkeftinek ji bikarhênerek zêde bikin an jêbirin" # Original: Add or delete an achievement from a user
+      username: "Navê bikarhêner" # Original: Username
+      username_placeholder: "Navê bikarhêner" # Original: Username
+      add_delete_instructions: "Ger bikarhêner ne xwediyê destkeftiyê be, ew ê li wê were zêdekirin. Ger bikarhêner xwediyê destkeftiyê be, ew ê jê were rakirin." # Original: If the user does not have the achievement, it will be added to it. If the user does have the achievement, it will be removed from it.
+      variable:
+        manual: "Destî" # Original: Manual
+        posts: "Posts" # Original: Posts
+        likes: "Likes dayîn" # Original: Likes given
+        selflikes: "Likes wergirt" # Original: Likes received
+        discussions: "Nîqaş" # Original: Discussions
+        edits: "Mesajên biguherîne" # Original: Edited posts
+        avatar: "Avatar hat barkirin" # Original: Avatar uploaded
+        contains: "Peyam dihewîne" # Original: Message contains
+        comments: "Bersiv di nîqaşekê de hatin wergirtin" # Original: Responses received in a discussion
+        years: "Salên qeydkirî" # Original: Years registered
+        meanwords: "Average words" # Original: Average words
+        tagposts: "Mesajên di etîketê de" # Original: Posts in tag
+      tooltip:
+        posts: "Hejmara herî hindik a postan (mînak 10) an rêjeyek tevlihev (mînak 10,19)" # Original: Minimum number of posts (e.g. 10) or inclusive range (e.g. 10,19)
+        likes: "Hejmara herî hindik a ecibandinên ku hatine dayîn (mînak 10) an rêjeyek tevlihev (mînak 10,19)" # Original: Minimum number of likes given (e.g. 10) or inclusive range (e.g. 10,19)
+        selflikes: "Hejmara hindiktirîn ecibandinên hatine wergirtin (mînak 10) an rêjeyek tevlihev (mînak 10,19)" # Original: Minimum number of likes received (e.g. 10) or inclusive range (e.g. 10,19)
+        discussions: "Hejmara herî hindik a nîqaşên ku hatine afirandin (mînak 10) an rêjeyek tevlihev (mînak 10,19)" # Original: Minimum number of discussions created (e.g. 10) or inclusive range (e.g. 10,19)
+        edits: "Hejmara herî hindik a postên hatine guherandin (mînak 10) an rêjeyek tevlihev (mînak 10,19)" # Original: Minimum number of posts edited (e.g. 10) or inclusive range (e.g. 10,19)
+        contains: "Peyv an peyvan û hejmara herî hindik a postên ku wê tê de hene (mînak mirîşk, 10) an rêzika tevde (mînak mirîşk, 10,19)" # Original: Word or words and minimum number of posts containing it (e.g. chicken,10) or inclusive range (e.g. chicken,10,19)
+        comments: "Hejmara herî kêm a bersivên ku di nîqaşekê de hatine wergirtin (mînak 10) an navberek tevlihev (mînak 10,19)" # Original: Minimum number of responses received in a discussion (e.g. 10) or inclusive range (e.g. 10,19)
+        years: "Hejmara hindiktirîn salên qeydkirî (mînak 10) an rêjeyek tevlihev (mînak 10,19)" # Original: Minimum number of years registered (e.g. 10) or inclusive range (e.g. 10,19)
+        meanwords: "Peyva ku lê bigere û hejmara hindiktirîn a xuyangên navîn (mînak mirîşk, 10) an rêzika tevhev (mînak mirîşk, 10,19)" # Original: Word to look for and minimum number of average appearances (e.g. chicken,10) or inclusive range (e.g. chicken,10,19)
+        tagposts: "Slûka nîşana ku lê bigerin û hejmara herî hindik a mesajan (mînak, dervî mijarê, 10) an rêza tevlêbûnê (mînak, derveyî mijarê, 10,19)" # Original: Slug of the tag to look for and minimum number of posts (e.g. off-topic,10) or inclusive range (e.g. off-topic,10,19)
+    achievements_page:
+      list_heading: "Achievements" # Original: Achievements
+      create_achievement_button: "Serkeftinek Nû biafirînin" # Original: Create New Achievement
+      instructions_header: "Instructions" # Original: Instructions
+      instructions_text: |
+        <li>To create an achievement, you must introduce a name.</li>
+        <li>Description is optional.</li>
+        <li>Choose which variable you want to calculate for this achievement from the list.</li>
+        <li>Introduce the threshold for the achievement to be activated. You can introduce two numbers separated with a comma (,) to indicate a minimum threshold and a maximum threshold (both numbers are inclusive).</li>
+        <li>Achievements with two threshold will be removed if the count is beyond the upper threshold.</li>
+        <li>For the "Message contains" achievement, you must introduce the specified word and then the threshold, separated by a comma (e.g. "spinach,5" or "spinach,5,10" for minimum and maximum threshold.)</li>
+        <li>Introduce the image URL with the icon to be used for this achievement.</li>
+        <li>Introduce the width and height of the icon.</li>
+        <li>Optional: If the image has more than one achievement icon, you can select which row and column to show for the icon.</li>
+      add_delete_users: "Destkeftiyên ji bikarhênerê zêde / jêbirin" # Original: Add/Delete achievements from user
+      show: "Lîsteya serkeftinê li ser nîşan bide:" # Original: Show achievement list on:
+    settings:
+      show-post-footer: "Her post footer" # Original: Each post footer
+      show-user-card: "Karta bikarhêner" # Original: User card

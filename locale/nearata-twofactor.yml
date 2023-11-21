@@ -1,0 +1,46 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+nearata-twofactor:
+  admin:
+    settings:
+      generate_backups: "Kodên hilanînê biafirînin." # Original: Generate backup codes.
+  forum:
+    invalid_twofa_code: "Koda du faktoran nederbasdar e." # Original: Invalid two factor code.
+    invalid_twofa_setup: "Şîfre an şîfreyek nederbasdar e." # Original: Password or passcode invalid.
+    log_in_modal:
+      submit_button: "Têkeve" # Original: Log In
+      otp_placeholder: "Şîfreya Du Faktorî" # Original: Two Factor Passcode
+      title: "Du Faktor" # Original: Two Factor
+    setup_button: "Du Faktor" # Original: Two Factor
+    setup_modal:
+      backups:
+        copy_button: "Kopî" # Original: Copy
+        download_button: "Download" # Original: Download
+        download_file_format: |
+          {website_title} | {website_url}
+
+          Keep these backup codes somewhere safe but accessible.
+
+          LIST OF CODES
+
+          {codes}
+
+          * You can only use each backup code once.
+          * These codes MUST be used in the listed order.
+          * These codes were generated on: {date}.
+        modal_message: >
+          Keep these recovery codes in a safe place. If you lose
+          your two factor enabled device, these one-time use codes
+          can be used in the listed order to log in to your account.
+      close_button: "Nêzîkî" # Original: Close
+      disabled: "Nasnameya du Faktorî neçalak bû." # Original: Two Factor authentication disabled.
+      enabled: "Nasnameya du Faktorî çalak kirin." # Original: Two Factor authentication enabled.
+      enter_code_disable: "Kodê binivîsin da ku Du Faktor neçalak bikin." # Original: Enter the code to disable Two Factor.
+      enter_code_manually: "Li şûna wê mifteyê bi destan binivîse" # Original: Enter key manually instead
+      passcode_placeholder: "Şîfreya Du Faktorî" # Original: Two Factor Passcode
+      password_placeholder: "Şîfre" # Original: Password
+      scan_qr: "Vê koda QR-ê bi cîhaza xweya rastkirina du-faktoran bişopînin da ku hesabê xwe saz bikin." # Original: Scan this QR code with your two factor authentication device to set up your account.
+      submit_button:
+        enable: "Bikêrkirin" # Original: Enable
+        disable: "Neçalak bike" # Original: Disable
+      title: "Du Faktor" # Original: Two Factor

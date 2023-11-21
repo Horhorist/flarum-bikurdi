@@ -1,0 +1,12 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+ianm-level-ranks:
+  admin:
+    settings:
+      levelText: "Nivîsara ku ji bo xalan were xuyang kirin binivîse (mînak Rêz, Asta)" # Original: Enter the text to be displayed for the points (e.g. Rank, Level)
+  forum:
+    desc:
+      expText: "{expTotal} EXP"
+  lib:
+    defaults:
+      level: "Deşt" # Original: Level

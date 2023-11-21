@@ -1,0 +1,30 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+nomiscz-auth-steam:
+  forum:
+    buttons:
+      login: "Bi Steam re têkevin" # Original: Log in with Steam
+      link: "Hesabê Steam girêdin" # Original: Link Steam Account
+      unlink: "Hesabê Steam-ê veqetîne" # Original: Unlink Steam Account
+    alerts:
+      already_linked: "Hesabê Steam jixwe ve girêdayî ye!" # Original: Steam Account is already linked!
+      already_used: "Hesabê Steam jixwe bi bikarhênerek din ve girêdayî ye!" # Original: Steam Account is already linked to another user!
+      link_success: "Girêdana Hesabê Steam serkeftî bû." # Original: Steam Account link successful.
+      unlink_success: "Hesabê Steam serketî be." # Original: Steam Account unlink successful.
+      error: "Tiştek xelet derket, ji kerema xwe paşê dîsa biceribîne!" # Original: Something went wrong, please try again later!
+    modals:
+      link:
+        title: "Hesabê Steam girêdin" # Original: Link Steam Account
+      unlink:
+        title: "Hesabê Steam-ê veqetîne" # Original: Unlink Steam Account
+        info:
+          confirm: "Ma hûn pê ewle ne, hûn dixwazin girêdana hesabê Steam-a xwe veqetînin?" # Original: Are you sure, you want unlink your Steam account?
+          no_providers: You don't have any others login providers! You'll probably have to reset your password.
+        buttons:
+          confirm: "Erê, hesabê xwe veqetîne" # Original: Yes, unlink account
+          cancel: "Na!" # Original: No!
+  admin:
+    settings:
+      title: "Mîhengên Destûrnameya Steam" # Original: Steam Auth Settings
+      api_key_label: "Mifteya API" # Original: API Key
+      use_steam_powered_domain: "Li şûna steamcommunity.com domaina steampowered.com bikar bînin (li Chinaînê hate asteng kirin)" # Original: Use steampowered.com domain instead of steamcommunity.com (blocked in China)

@@ -1,0 +1,16 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+the-turk-regrole:
+    admin:
+      settings:
+        title: "Registration Roles Settings" # Original:         Registration Roles Settings
+        roleIds: "Rolên Destûrdar" # Original:       Allowed Roles
+        roleIdsHelp: "Rolên ku bikarhêneran destûr dane ku xwe destnîşan bikin hilbijêrin." # Original:   Choose roles that users allowed to assign themselves.
+        otherOptions: "Vebijarkên din" # Original:  Other Options
+        multipleRoles: "Destûrê bide bikarhêneran ku gelek rol werin tayîn kirin" # Original: Allow users to have multiple roles assigned
+        forceUsers: "Bikarhêneran neçar bikin ku bi kêmanî yek rol ji xwe re diyar bikin" # Original:    Force users to assign at least one role to themselves
+    forum:
+      chooseRole: "Rolek Hilbijêre" # Original:      Choose A Role
+      chooseRoleHelp: "Ji kerema xwe rolek hilbijêrin da ku hûn foruma me bikar bînin." # Original:  Please choose a role to continue using our forum.
+      requiredRegRole: "Pêdivî ye ku hûn rolek hilbijêrin da ku qeydkirinê bidomînin." # Original: You must choose a role to continue registration.
+      save: "=> core.ref.save_changes" # Original:            => core.ref.save_changes

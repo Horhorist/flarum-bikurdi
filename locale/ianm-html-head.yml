@@ -1,0 +1,22 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+ianm-html-head:
+  admin:
+    create_button: "Xûliqandin" # Original: Create
+
+    table:
+      description_label: "Terîf" # Original: Description
+      header_label: "Header" # Original: Header
+      active_label: "Jîr" # Original: Active
+      empty_text: "No entries" # Original: No entries
+      delete_button: "Jêbirin" # Original: Delete 
+      edit_button: "Weşandin" # Original: Edit
+
+    modal:
+      create_title: "Tiştek nû çêbikin" # Original: Create new item
+      edit_title: "Tiştê biguherîne" # Original: Edit item
+      text: Ensure your syntax is correct, as it's possible to break the forum by supplying incorrect data on the head item. Once saved, enable your new header item using the toggle switch provided.
+      description_label: "Terîf" # Original: Description
+      header_label: "Babetê serê Custom" # Original: Custom head item
+      save_button: "Rizgarkirin" # Original: Save
+      

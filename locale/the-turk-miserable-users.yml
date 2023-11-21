@@ -1,0 +1,62 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+the-turk-miserable-users:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      miserable_user_label: => the-turk-miserable-users.ref.miserable_user
+
+    # These translations are used in the Settings page.
+    settings:
+      range_separator_text: "ber" # Original:  to 
+      range_seconds_text: "Seconds" # Original:  Seconds
+      loading_delay_label: "Derengiya barkirinê" # Original: Loading delay
+      loading_delay_text: "Bikarhênerên xirav dê di nav du nirxên ku li vir têne peyda kirin de di nav derengiya barkirina rûpelê de ji serdemek bêserûber re rû bi rû bimînin." # Original: Miserable users will be subjected to a page loading delay of a random period between the two values provided here.
+      broken_page_chance_label: "Derfeta rûpela şikestî" # Original: Broken page chance
+      broken_page_chance_text: "Hûn dikarin car caran rûpelek şikestî pêşkêşî bikarhênerên belengaz bikin. Ji sedî şansê vê yekê têkevin." # Original: You may present miserable users with a broken page from time to time. Enter the percentage chance of this happening.
+      flood_time_multiplier_label: "Qatjimara dema lehiyê" # Original: Flood time multiplier
+      flood_time_multiplier_text: "Dema kêmtirîn standard (ku 10 saniye ye) di navbera peyaman de dikare were zêdekirin da ku bikarhênerên belengaz di navbera şandinê de demek dirêjtir bisekinin." # Original: The standard minimum time (which is 10 seconds) between messages can be multiplied to make miserable users wait longer between posting.
+      redirection_chance_label: "Derfeta Redirection" # Original: Redirection chance
+      redirection_chance_text: "Rêjeya şansê ku bikarhênerek xemgîn dê ji URL-a rûpela beralîkirinê re were verast kirin binivîsin." # Original: Enter the percentage chance that a miserable user will be redirected to the redirection page URL.
+      redirection_page_url_label: "URLa rûpela beralîkirinê" # Original: Redirection page URL
+      redirection_page_url_text: "Hûn dikarin bi korfelaqî bikarhênerên xerab beralî rûpelek din bikin. Vê vala bihêlin da ku beralîkirina rûpela malê ya forumê." # Original: You may randomly redirect miserable users to a different page. Leave this blank to redirect to the forum home page.
+      log_out_chance_label: "Derfeta derkeve" # Original: Log out chance
+      log_out_chance_text: Enter the percentage chance that a miserable user will be logged out and redirected back to the home page. <b>Remember!</b> Once logged out, they're not miserable anymore.
+      shuffle_post_chance_label: "Derfeta postê tevlihev bikin" # Original: Shuffle post chance
+      shuffle_post_chance_text: You may randomly shuffle a miserable user's post. Enter the percentage chance of this happening.
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are displayed as tooltips for user badges.
+    user_badge:
+      miserable_user_tooltip: => the-turk-miserable-users.ref.miserable_user
+
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      miserable_user_button: => the-turk-miserable-users.ref.miserable_user
+
+    # These translations are used in the Miserable User modal dialog (admin function).
+    miserable_user:
+      title: "Miserable {username}"
+      status_heading: "Rewşa Xerab" # Original: Miserable Status
+      not_miserable_label: "Ne xemgîn" # Original: Not miserable
+      indefinitely_label: "Bêbextî bêdawî" # Original: Miserable indefinitely
+      limited_time_label: "Ji bo demek sînorkirî xemgîn ..." # Original: Miserable for a limited time...
+      limited_time_days_text: "rojan" # Original:  days
+      submit_button: => core.ref.save_changes
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    miserable_user: "Bikarhênerê Xirab" # Original: Miserable User

@@ -1,0 +1,27 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+sycho-github-milestone:
+
+  admin:
+    repository: "Depoya GitHub" # Original: GitHub Repository
+    repository_example: "mînak: flarum / core" # Original: example: flarum/core
+    milestone: "Nasnameya Milestone" # Original: Milestone ID
+    default_filter: "Parzûna xwerû" # Original: Default Filter
+    closed: => sycho-github-milestone.ref.closed
+    open: => sycho-github-milestone.ref.open
+    all: => sycho-github-milestone.ref.all
+
+  forum:
+    title: "Milestone" # Original: Milestone
+    last_updated: Last updated {time}
+    closed: => sycho-github-milestone.ref.closed
+    open: => sycho-github-milestone.ref.open
+    all: => sycho-github-milestone.ref.all
+    complete: '{progress} Complete'
+    load_more: => core.forum.discussion_list.load_more_button
+    tasks_done: '{number} of {total}'
+
+  ref:
+    closed: "Girtî" # Original: Closed
+    open: "Vekirî" # Original: Open
+    all: "Gişt" # Original: All

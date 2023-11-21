@@ -1,0 +1,34 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+Xengine-signature:
+    forum:
+        buttons:
+            signature: "Destnîşan" # Original: Signature
+            save: "Save Îmze" # Original: Save Signature
+        modal:
+            loading:
+                title: "Saving" # Original: Saving 
+                content: "Ji kerema xwe bisekinin..." # Original: Please wait...
+            error:
+                title: "Wey! Di dema tomarkirinê de rastî hin xeletiyan hat..." # Original: Whoops! Encountered some errors while saving...
+                content: "Lîsteya xeletiyan:" # Original: List of errors:
+        errors:
+             max_char_limit_exceed: "Sînorê karakterê herî zêde derbas bû." # Original: Maximum character limit exceeded.
+             max_image_width_exceed: "Sînorê firehiya wêneyê ya herî zêde derbas bû." # Original: Maximum image width limit exceeded.
+             max_image_height_exceed: "Sînorê bilindahiya wêneyê herî zêde derbas bû." # Original: Maximum image height limit exceeded.
+             max_image_count_exceed: "Hejmara wêneya herî zêde derbas bû." # Original: Maximum image count exceeded.
+    admin:
+        title: "Destnîşan" # Original: Signature
+        settings:
+            maximum_image_width:
+                description: "Firehiya herî zêde ya wêneyan li ser edîtorê." # Original: Maximum width of images on editor.
+                placeholder: "350 (pêşbirk)" # Original: 350 (default)
+            maximum_image_height:
+                description: "Bilindahiya herî zêde ya bilindahiya tevahî wêneyên ku li ser edîtorê hatine danîn." # Original: Maximum height of sum height of total inserted images on editor.
+                placeholder: "500 (pêşbirk)" # Original: 500 (default)
+            maximum_image_count:
+                description: "Wêneyên herî zêde hatine danîn." # Original: Maximum inserted images.
+                placeholder: "5 (pêşbirk)" # Original: 5 (default)
+            maximum_char_limit:
+                description: "Sînorê karaktera herî zêde ya îmzeyê (karekteran bihejmêre, bi etîketên HTML-ê re nayê hesibandin)" # Original: Maximum character limit of signature (count characters, does not considering with HTML tags)
+                placeholder: "1000 (pêşbirk)" # Original: 1000 (default)

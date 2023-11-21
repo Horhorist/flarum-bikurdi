@@ -1,0 +1,21 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+nearata-auth-minecraft:
+  api:
+    invalid_token_format: "Divê nîşanek hejmar be." # Original: The token must be numeric.
+  forum:
+    change_email_modal:
+      confirmation_message: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+      dismiss_button: "OK" # Original: OK
+      submit_button: "E-nameyê biguherînin" # Original: Change Email
+      title: "E-nameyê biguherînin" # Original: Change Email
+      token_placeholder: "Token" # Original: Token
+    error_403: "Nîşanek nederbasdar an qediya." # Original: Invalid or expired token.
+    log_in_modal:
+      submit_button: "Validate" # Original: Validate
+      title: "Bi Minecraft re têkevin" # Original: Log In with Minecraft
+    log_in_button_title: "Bi Minecraft re têkevin" # Original: Log In with Minecraft
+    settings:
+      change_email_button: "E-nameyê biguherînin" # Original: Change Email
+    token_help: "Tevlî serverê bibin <strong>srv.mc-oauth.net:25565</strong> da ku nîşanek gihîştinê bistînin." # Original: Join the server <strong>srv.mc-oauth.net:25565</strong> to get an access token.
+    token_placeholder: "Token" # Original: Token

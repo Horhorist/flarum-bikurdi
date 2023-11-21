@@ -1,0 +1,8 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+the-turk-pallet-theme:
+  forum:
+    howdy: "Silav, Xerîbî!" # Original:  Howdy, Stranger!
+    involve: It looks like you're new here. If you want to get involved, click one of these buttons!
+  admin:
+    info: "Spas ji bo bikaranîna mijara Pallet! Rengên jêrîn dê tenê li ser panela rêveberiyê bandor bikin." # Original:  Thanks for using the Pallet theme! Following colors will take effect on the admin panel-only.

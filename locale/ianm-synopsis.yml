@@ -1,0 +1,16 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+ianm-synopsis:
+  admin:
+    settings:
+      excerpt-label: "Bi kurtî dirêjahiya jêderan bi tîpan" # Original: Summary excerpt length in characters
+      rich-excerpts: "Perçeyan bi karanîna naveroka dewlemend nîşan bidin (bi hişyarî bikar bînin)" # Original: Display excerpts using rich content (use with caution)
+      excerpt-type: "Kîjan post divê wekî jêgirtin were xuyang kirin?" # Original: Which post should be displayed as the excerpt?
+      first-label: "Post yekem" # Original: First post
+      last-label: "Posta dawî" # Original: Last post
+  forum:
+    user:
+      settings:
+        summaries-heading: "Sînopsîs" # Original: Synopsis
+        show-summaries: "Di navnîşên nîqaşê de (Desktop/Tablet) ji her nîqaşê perçeyek nîşan bidin" # Original: Display an excerpt from each discussion in discussion lists (Desktop/Tablet)
+        show-summaries-mobile: "Di navnîşên nîqaşê de perçeyek ji her nîqaşê nîşan bidin (Mobile)" # Original: Display an excerpt from each discussion in discussion lists (Mobile)

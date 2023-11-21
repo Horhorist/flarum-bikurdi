@@ -1,0 +1,30 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+nomiscz-auth-wechat:
+  forum:
+    buttons:
+      login: "Bi WeChat re têkevin" # Original: Log in with WeChat
+      link: "Hesabê WeChat girêdin" # Original: Link WeChat Account
+      unlink: "Hesabê WeChat veqetîne" # Original: Unlink WeChat Account
+    alerts:
+      already_linked: "Hesabê WeChat jixwe ve girêdayî ye!" # Original: WeChat Account is already linked!
+      already_used: "Hesabê WeChat jixwe bi bikarhênerek din ve girêdayî ye!" # Original: WeChat Account is already linked to another user!
+      link_success: "Girêdana Hesabê WeChat serketî ye." # Original: WeChat Account link successful.
+      unlink_success: "Hesabê WeChat bi ser ket." # Original: WeChat Account unlink successful.
+      error: "Tiştek xelet derket, ji kerema xwe paşê dîsa biceribîne!" # Original: Something went wrong, please try again later!  
+    modals:
+      link:
+        title: "Hesabê WeChat girêdin" # Original: Link WeChat Account
+      unlink:
+        title: "Hesabê WeChat veqetîne" # Original: Unlink WeChat Account
+        info:
+          confirm: "Ma hûn pê bawer in, hûn dixwazin hesabê WeChat-a xwe veqetînin?" # Original: Are you sure, you want unlink your WeChat account?
+          no_providers: You don't have any others login providers! You'll probably have to reset your password.
+        buttons:
+          confirm: "Erê, hesabê xwe veqetîne" # Original: Yes, unlink account
+          cancel: "Na!" # Original: No!   
+  admin:
+    settings:
+      title: "Mîhengên WeChat Auth" # Original: WeChat Auth Settings
+      api_app_id: "Nasnameya API App" # Original: API App ID
+      api_app_secret: "API App Secret" # Original: API App Secret

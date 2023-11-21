@@ -1,0 +1,18 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+sycho-profile-cover:
+  admin:
+    thumbnails: "Thumbnails biafirînin" # Original: Create thumbnails
+    max_size: "Mezinahiya wêneya bergê ya profîlê ya herî zêde (bi KB)" # Original: Maximum profile cover image size (in KB)
+    permission:
+      set_cover: "Set Profile Cover" # Original: Set Profile Cover
+  forum:
+    cover: "Lihêv" # Original: Cover
+    edit_cover: "Biguherîne Cover" # Original: Edit Cover
+    notice: "Maximum size: {size}"
+    added:
+      success: "Berga profîlê hate nûve kirin." # Original: Profile cover updated.
+      error: "Wêne nehat barkirin." # Original: Image could not be uploaded.
+    removed:
+      success: "Berga profîlê hat rakirin." # Original: Profile cover removed.
+      error: "Nikare bergê jê bibe, paşê dîsa biceribîne." # Original: Could not remove cover, try again later.

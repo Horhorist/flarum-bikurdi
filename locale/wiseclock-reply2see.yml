@@ -1,0 +1,6 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+wiseclock-reply2see:
+  forum:
+    hidden_content: "NAVEROK VEŞARÎ" # Original: HIDDEN CONTENT
+    reply_to_see: "You need to {reply} and refresh to see the content"

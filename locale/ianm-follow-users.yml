@@ -1,0 +1,123 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+ianm-follow-users:
+  admin:
+    permissions:
+      be_followed_label: "Bihêle bikarhêneran bişopînin" # Original: Allow users to follow
+
+  forum:
+    profile_link: => ianm-follow-users.lib.following_link
+
+    profile_page:
+      no_following: It looks like you're not following anyone.
+
+    user_controls:
+      follow_button: => ianm-follow-users.lib.follow
+      unfollow_button: => ianm-follow-users.lib.change_follow_type
+
+    settings:
+      notify_new_follower_label: "Kesek li pey min tê" # Original: Someone follows me
+      notify_new_unfollower_label: "Kesek li pey min disekine" # Original: Someone stops following me
+      notify_new_discussion_label: Someone I'm following starts a discussion
+      notify_new_post_label: Someone I'm following posts in an existing discussion
+      block_follow: "Bikarhêneran ji şopandina min asteng bikin" # Original: Prevent users from following me
+
+    index:
+      follow_tag_button: => ianm-follow-users.lib.follow
+      unfollow_tag_button: => ianm-follow-users.lib.change_follow_type
+
+    notifications:
+      new_discussion_text: "{username} started"
+      new_post_text: "{username} posted in a discussion"
+      new_follower_text: "{username} followed you"
+      new_unfollower_text: "{username} stopped following you"
+
+    badge:
+      label:
+        follow: "Li pey nîqaşan" # Original: Following discussions
+        lurk: "Li pey hemûyan" # Original: Following all
+
+    filter:
+      following: "Bikarhênerên şopandin" # Original: Followed users
+
+    modals:
+      select_follow_level:
+        title: "Select follow level for {username}"
+        description: "Choose how you'd like to follow <em>{username}</em>."
+
+        follow_levels_heading: "Asta bişopînin" # Original: Follow levels
+        follow_select_label: "Tîpa bişopînin" # Original: Follow type
+
+        no_user_attr_provided_err: "Uh oh, dema vekirina vê modalê tiştek xelet derket." # Original: Uh oh, something went wrong while opening this modal.
+        no_user_attr_provided_err_debug: "Dema ku hate afirandin ti taybetmendiyek `bikarhêner` ji modala SelectFollowUserLevel re derbas nebû. Modal nayê pêşkêş kirin." # Original: No `user` attribute was passed to the SelectFollowUserLevel modal when created. Modal cannot be rendered.
+
+        save_btn: "Rizgarkirin" # Original: Save
+        cancel_btn: "Bişûndekirin" # Original: Cancel
+
+  email:
+    new_discussion_by_user_subject: "[Follow User] {title}"
+    new_follower_subject: "[Bikarhêner bişopîne] Te şopînerek nû heye!" # Original: [Follow User] You have a new follower!
+    new_post_subject: "[Follow User] New post in {title}"
+    new_discussion_by_user_body: |
+      Hey {recipient_display_name},
+
+      {user_display_name} started a new discussion: {discussion_title}
+
+      To view the new discussion, check out the following link:
+
+      {discussion_url}
+
+      ---
+
+      {post_content}
+
+    new_follower_body: |
+      Hey {recipient_display_name},
+
+      {follower_display_name} started following you, so they'll be notified when you start a new discussion.
+
+      To view their profile, check out the following link:
+
+      {profile_url}
+
+    new_post_body: |
+      Hey {recipient_display_name},
+
+      {user_display_name} posted in a discussion: {discussion_title}
+
+      To view the new activity, check out the following link:
+
+      {post_url}
+
+      ---
+
+      {post_content}
+
+      ---
+
+      You won't receive any more notifications about this discussion until you're up-to-date.
+
+  lib:
+    following_link: "Bikarhênerên şopandin" # Original: Followed Users
+
+    follow: "Pêketin" # Original: Follow
+    change_follow_type: "Tîpa şopandinê biguherînin" # Original: Change follow type
+
+    follow_levels:
+      unfollow:
+        name: Don't follow
+
+        description: |
+          Don't receive any notifications for <em>{username}</em>'s activity.
+
+      follow:
+        name: "Nîqaşan bişopînin" # Original: Follow discussions
+
+        description: |
+          Receive notifications when <em>{username}</em> starts new a new discussion.
+
+      lurk:
+        name: "Hemî bişopînin" # Original: Follow all
+
+        description: |
+          Receive notifications when <em>{username}</em> starts a new discussion or posts within any discussion.

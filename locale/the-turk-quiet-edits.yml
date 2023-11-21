@@ -1,0 +1,9 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+the-turk-quiet-edits:
+    admin:
+      settings:
+        grace_period_label: "Serdema xêrê (çirkeyan)" # Original: Grace period (seconds)
+        grace_period_text: "Guhertinên ku di heyama keremetê de yekser piştî şandinê têne kirin, guherandinên fermî nayên hesibandin." # Original: Edits made within the grace period immediately after posting are not considered formal edits.
+        ignore_case_differences_label: "Cûdahiyên dozê paşguh nekin" # Original: Ignore case differences
+        ignore_whitespace_differences_label: "Cûdahiyên cîhê spî paşguh nekin" # Original: Ignore whitespace differences

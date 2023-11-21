@@ -1,0 +1,8 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+glowingblue-redis-setup:
+  admin:
+    settings:
+      enable_cache: "Redis cache çalak bike" # Original: Enable Redis cache
+      enable_redis_sessions: "Danişînên Redis çalak bikin (hemû bikarhêner dê piştî guheztina vê mîhengê derkevin)" # Original: Enable Redis sessions (all users will be logged out after changing this setting)
+      enable_queue: "Dora Redis çalak bike" # Original: Enable Redis queue

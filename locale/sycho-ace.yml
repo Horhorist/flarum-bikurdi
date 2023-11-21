@@ -1,0 +1,16 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+sycho-ace:
+  admin:
+    extensions: "Extensions" # Original: Extensions
+    category_selection:
+      label: "Kategorîzekirin By" # Original: Categorize By
+      options:
+        default: "Destçûnî" # Original: Default
+        vendor: "Firotkar" # Original: Vendor
+        none: "Netû" # Original: None
+        availability: "Berdestbûnî" # Original: Availability
+    categories:
+      none: "A-Z" # Original: A-Z
+      enabled: "Enabled" # Original: Enabled
+      disabled: "Bêmecel" # Original: Disabled

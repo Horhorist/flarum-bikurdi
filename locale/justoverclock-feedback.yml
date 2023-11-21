@@ -1,0 +1,60 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+justoverclock-feedback:
+  admin:
+    contactmail: "Navnîşana e-nameyê ji bo şandina bersivê" # Original: Email address to send feedback to
+    feedback1-title: "Cureyê bersiv 1" # Original: Feedback type 1
+    feedback1-title-help: Customize here the name of your "feedback type"
+    feedback1-icon: "Îkona ji bo Bersiva cureyê 1" # Original: Icon for Feedback type 1
+    feedback1-icon-help: Put a text icon like "⚠️, ☎️, ✏️" - Windows (Win + .) MacOS 🌐
+    feedback2-title: "Nirx 2" # Original: Feedback type 2
+    feedback2-title-help: Customize here the name of your "feedback type 2"
+    feedback2-icon: "Îkona ji bo Bersiva cureyê 2" # Original: Icon for Feedback type 2
+    feedback2-icon-help: Put a text icon like "⚠️, ☎️, ✏️" - Windows (Win + .) MacOS 🌐
+    feedback3-title: "Cureya bersivê 3" # Original: Feedback type 3
+    feedback3-title-help: Customize here the name of your "feedback type 3"
+    feedback3-icon: "Îkona ji bo Bersiva cureyê 3" # Original: Icon for Feedback type 3
+    feedback3-icon-help: Put a text icon like "⚠️, ☎️, ✏️" - Windows (Win + .) MacOS 🌐
+    contactdesc: "Pêdivî ye ku ev were dagirtin da ku widgeta bersivê bi tevahî çalak bike" # Original: This must be filled in to fully enable the feedback widget
+    collect-email: "Qada navnîşana e-nameyê (vebijarkî) ji bikarhêneran re nîşan bide" # Original: Display (optional) email address field to users
+    collect-email-help: "Dema ku çalak be, bikarhêner dikarin navnîşana e-nameya xwe li bertekê zêde bikin" # Original: When enabled, users are able to add their email address to the feedback
+    position: "Positiona widgetê" # Original: Widget position
+    position-help: "Li jêr çepê an rastê jêrîn hilbijêrin da ku bişkoka nerînê nîşan bidin" # Original: Select bottom left or bottom right to display the feedback button
+    right_label: "Rast" # Original: Right
+    left_label: "Çep" # Original: Left
+    background-color: "Rengê paşxaneya widgetê" # Original: Widget background color
+    background-color-help: Provide a hex color code to use as the background color, ie '#fff'
+    font-color: "Rengê tîpa widgetê" # Original: Widget font color
+    font-color-help: Provide a hex color code to use as the font color, ie '#000'
+    box-title: "Sernavê Box" # Original: Box Title
+    box-title-help: Set the title of the popup feedback widget (old "Flarum feedback")
+  api:
+    validation_error: "Hûn nikarin nerînên vala bişînin" # Original: You cannot send empty feedback
+  forum:
+    button-title: "Feedback" # Original: Feedback
+    feedback-widget:
+      title: "Feedback Flarum" # Original: Flarum Feedback
+      placeholder: "Bersivên xwe li vir binivîse" # Original: Enter your feedback here
+      email-placeholder: "Email (vebijarkî)" # Original: Email (optional)
+      submit: "Nermijîn" # Original: Submit
+      back: "Paş" # Original: Back
+      contact-text: "An jî e-nameyek bişînin!" # Original: Or send an email!
+      type-message: "Çi bersivên we hene?" # Original: What feedback do you have?
+      success: "Spas!👊" # Original: Thanks!👊
+      failed-title: "Oops, xeletiyek derket" # Original: Oops, an error ocurred
+      failed-message: "Ji kerema xwe dîsa biceribîne. Ger ev diqewime, hewl bidin ku li şûna e-nameyê bişînin." # Original: Please try again. If this keeps happening, try to send an email instead.
+      email-field-placeholder: "Email (qada bijarte)" # Original: Email (optional field)
+      types:
+        general: "Bersiva giştî" # Original: General feedback
+        idea: "Fikra min heye" # Original: I have an idea
+        bug: "Rapora Bug" # Original: Bug Report
+    email:
+      guest: "bikarhênerek nenas" # Original: an anonymous user
+      subject: "Feedback" # Original: Feedback
+      body: |
+       New {type} feedback from {user}!
+
+       {message}
+
+       Email: {email}
+       Url: {url}

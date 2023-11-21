@@ -1,0 +1,110 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+the-turk-diff:
+    forum:
+        revisions:                    "{revisionCount, plural, one {{revisionCount} revision} other {{revisionCount} revisions}}"
+        emptyText: "No Guhertoyên" # Original:                    No Revisions
+        editedText: "=> core.forum.post.edited_text" # Original:                   => core.forum.post.edited_text
+        deletedText: "(hat jêbirin)" # Original:                  (deleted)
+        
+        tooltips:
+          # Revision List Tooltips
+          mostRecent: "herî dawî" # Original:                 most recent
+          originalContent: "=> the-turk-diff.ref.originalContent" # Original:            => the-turk-diff.ref.originalContent
+          revisionWithNumber: "=> the-turk-diff.ref.revisionWithNumber" # Original:         => the-turk-diff.ref.revisionWithNumber
+          ## Renderer Switcher Tooltips
+          sideBySide: "Mil bi mil" # Original:                 Side by Side
+          inline: "Xet bi Xet" # Original:                     Line by Line
+          combined: "Têkel" # Original:                   Combined
+          preview: "=> core.forum.composer.preview_tooltip" # Original:                    => core.forum.composer.preview_tooltip
+
+        # Buttons
+        optionsButton: "Vebijêrk" # Original:                Options
+        deleteButton: "=> core.forum.post_controls.delete_button" # Original:                 => core.forum.post_controls.delete_button
+        rollbackButton:               "Rollback to Revision {number}"
+        rollbackToOriginalButton: "Vegere bo Orjînal" # Original:     Rollback to Original
+        revertChangesButton: "Guhertinên Vegere" # Original:          Revert Changes
+
+        # Confirmation Messages
+        confirmRollback: "Ma hûn guman dikin ku hûn dixwazin posta xweya heyî biguherînin?" # Original:              Are you sure you want to change your current post?
+        confirmDelete:                Are you sure you want to delete this edit's contents from the history?
+
+        # Error Messages
+        rollbackErrorMessage: "Vegerandina guhertinan bi ser neket." # Original:         Reverting of changes failed.
+        deleteErrorMessage:           Deletion of edit's contents failed.
+
+        # Informative Messages
+        rollbackSuccessMessage: "Guhertinên te hatin vegerandin." # Original:       Your changes were reverted.
+        deleteSuccessMessage:         Edit's contents were deleted.
+        editedInfo: "=> core.forum.post.edited_tooltip" # Original:                   => core.forum.post.edited_tooltip
+        deletedInfo:                  "{username} deleted this content {ago}"
+        createdInfo:                  "{username} created {ago}"
+        revisionInfo:                 "Edited {revisionCount, plural, one {{revisionCount} time} other {{revisionCount} times}}, newest at the top"
+        noDiff: "Di navbera van her du naverokan de cudahî nehat dîtin." # Original:                       No differences found between these two contents.
+
+        differences:
+           # one of the following will be used in place of {old} or {new} in ‘sentence’ key
+          originalContent: "=> the-turk-diff.ref.originalContent" # Original:            => the-turk-diff.ref.originalContent
+          currentContent: "=> the-turk-diff.ref.currentContent" # Original:             => the-turk-diff.ref.currentContent
+          revisionWithNumber: "=> the-turk-diff.ref.revisionWithNumber" # Original:         => the-turk-diff.ref.revisionWithNumber
+          # ---
+          sentence:                   "You're viewing differences between {old} and {new}"
+
+        previewMode:
+          # one of the following will be used in place of {content} in ‘sentence’ key
+          originalContent: "=> the-turk-diff.ref.originalContent" # Original:            => the-turk-diff.ref.originalContent
+          currentContent: "=> the-turk-diff.ref.currentContent" # Original:             => the-turk-diff.ref.currentContent
+          revisionWithNumber: "=> the-turk-diff.ref.revisionWithNumber" # Original:         => the-turk-diff.ref.revisionWithNumber
+          # ---
+          sentence:                   "You're previewing {content}"
+    admin:
+        settings:
+            title: "Mîhengên Cûdahî" # Original:                    Diff Settings
+
+            ####################
+            # General Settings #
+            ####################
+
+            # Informative Messages
+            onlyUnsigned: "Tenê <strong>hejmarên bênîşan</strong> destûr in!" # Original:             Only <strong>unsigned integers</strong> are allowed!
+            usePoint: "Ji bo nirxên float <strong>xal</strong> wekî veqetandina dehek bikar bînin." # Original:                 Use <strong>point</strong> as decimal seperator for float values.
+
+            # Switch Components
+            separateBlock: "Di navberkerên HTML-ê de veqetankerek di navbera hûrgelên cihêreng de nîşan bidin" # Original:            Show a separator between different diff hunks in HTML renderers
+            mainPostOnly:             Store main post's revisions only
+            textFormatting: "Formatkirina nivîsê ji bo pêşdîtinan çalak bike" # Original:           Enable text formatting for previews
+
+            # Select Component
+            detailLevel: "Detail Level" # Original:              Detail Level
+            noneLevel: "Ne-asta" # Original:                None-level
+            lineLevel: "Line-level" # Original:                Line-level
+            wordLevel: "Peyv-asta" # Original:                Word-level
+            charLevel: "Char-level" # Original:                Char-level
+
+            # Text Type Inputs
+            neighborLines: "Xetên Cîran" # Original:            Neighbor Lines
+            neighborLinesHelp: "Hejmara xeta cîranê ku hûn dixwazin nîşan bidin diyar bikin." # Original:        Specify the neighbor line count that you want to show.
+            # ---
+            mergeThreshold: "Ji bo Pêşkêşkera Hevbeş sînorê Yekbûnê" # Original:           Merge Threshold for the Combined Renderer
+            mergeThresholdHelp: "Ev diyar dike ka bloka-cûre-cûre divê were yek kirin an na li gorî rêjeya guherîna naverokê, ku di navbera 0 û 1-ê de nirx dike." # Original:       This determines whether a replace-type block should be merged or not depending on the content changed ratio, which values between 0 and 1.
+
+            ##################################
+            # Database Optimisation Settings #
+            ##################################
+
+            dbOptimisation: "Optimîzasyona Database" # Original:           Database Optimisation
+            archiveOlds: "Guhertoyên kevn arşîv bikin" # Original:              Archive old revisions
+            archiveOldsInfo:          If <strong>x ≥ A</strong>, first <strong>y=mx+b</strong> revisions for the post will be stored as merged & compressed. The <strong>x</strong> refers to post's revision count. Float values of <strong>y</strong> will be rounded to the next lowest integer value.
+            useCrons: "Ji bo arşîvkirina guhertoyên kevn kronan bikar bînin" # Original:                 Use crons to archive old revisions
+            useCronsHelp:             You must add Cron entry to your server to make this option work. It'll work weekly on sundays at 02:00 AM. If you disable this option and enable above, all of the post's revisions will be scanned for archiving when the related post is revised.
+            archiveInfo: "Bînin bîra xwe ku hûn dikarin herdu vebijarkan neçalak bikin û emrê <code>php flarum diff:archive</code> bimeşînin da ku guhertoyên kevn bi destan arşîv bikin." # Original:              Keep in mind that you can disable both options and run <code>php flarum diff:archive</code> command to archive old revisions manually.
+        permissions:
+            viewEditHistory: "Dîroka guherandinê bibînin" # Original:          View edit history
+            deleteEditHistory: "Dîroka guherandinê yên kesên din jêbirin" # Original:        Delete others edit history
+            selfDeleteEditHistory: "Dîroka guherandinê ya xwe jêbirin" # Original:    Delete own edit history
+            rollbackEditHistory: "Rollback yên din dîroka biguherînin" # Original:      Rollback others edit history
+            selfRollbackEditHistory: "Dîroka xweya guherandinê vegerîne" # Original:  Rollback own edit history
+    ref:
+        originalContent: "naveroka orjînal" # Original:              original content
+        currentContent: "naveroka niha" # Original:               current content
+        revisionWithNumber:           "revision {number}"

@@ -1,0 +1,17 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+nearata-listen-moe:
+  admin:
+    settings:
+      radio_guests: "Radyoyê ji bo mêvanan çalak bike." # Original: Enable the radio for guests.
+      radio_help: "Radyoya standard ji bo mêvanan." # Original: Default radio for guests.
+      radio_label: "Tîpa Radyoyê" # Original: Radio Type
+      radio_options:
+        jpop: "J-pop" # Original: J-pop
+        kpop: "K-pop" # Original: K-pop
+  forum:
+    settings:
+      radio_label: "Guhdariya Moe Radio" # Original: Listen Moe Radio
+      radio_options:
+        jpop: "J-pop" # Original: J-pop
+        kpop: "K-pop" # Original: K-pop

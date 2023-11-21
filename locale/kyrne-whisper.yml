@@ -1,0 +1,50 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+kyrne-whisper:
+  admin:
+    settings:
+      return_key: "Mifteya Vegerê peyamê dişîne" # Original: Return key sends message
+      title: "Mîhengên Whisper" # Original: Whisper Settings
+      set_own_password: "Bihêlin bikarhêner şîfreya xwe çêbikin - SSO Compatibility" # Original: Let users make their own password - SSO Compatibility
+    permissions:
+      start_label: "Danûstandinên taybet dest pê bikin" # Original: Start private conversations
+  forum:
+    dropdown:
+      tooltip: "Conversations" # Original: Conversations
+    setup:
+      title: "Setup Messaging Taybet" # Original: Setup Private Messaging
+      header_setup: "Şîfreya têketina hesabê xwe binivîsin da ku peyamên taybet saz bikin." # Original: Enter your account login password to setup private messaging.
+      header_import: "Şîfreya têketina hesabê xwe binivîsin da ku peyamên xweyên taybet têxin." # Original: Enter your account login password to import your private messages.
+      header_set_own: "Ji bo sazkirina peyamên taybet şîfreyek binivîse." # Original: Enter a password to setup private messages.
+      header_set_own_import: "Şîfreya peyamên xwe yên taybet binivîsin da ku wan têxin." # Original: Enter your private messages password to import them.
+      passwords_mismatch: The passwords didn't match
+      invalid_password: "Şîfreya te çewt bû." # Original: Your password was incorrect.
+      button_import: "Anîn" # Original: Import
+      button_setup: "Damezirandin" # Original: Setup
+      confirm_password: "di pêşîyê da em sipas dikin" # Original: Confirm Password
+      success: "Peyamên taybet naha amade ye, rûpela we dê ji nû ve bar bike..." # Original: Private messaging is now ready, your page will now reload...
+    modal:
+      title: "Danûstandinê dest pê bikin" # Original: Start Conversation
+      help: "Ji bo destpêkirina sohbetê dest bi nivîsandina navekî bikarhêner bikin." # Original: Start typing a username to start a chat.
+      help_start: "Type your first message. This will be the only message you can send until {username} responds. Click the user to select a different recipient."
+      search_recipients: "Navê bikarhêner binivîse..." # Original: Enter username...
+      submit: "Bişîne & Destpêk Danûstandin" # Original: Send & Start Conversation
+      copied: "Peyama we li panoyê hat kopî kirin." # Original: Your message has been copied to the clipboard.
+      more_users: If you don't see the user you are looking for, they don't have private messaging setup.
+      already: "You already have a conversation with {username}."
+    user_modal_alert: "{username} has private messaging setup, their password cannot be safely changed."
+    chat:
+      chat_with: "Chat with {username}"
+      messages_multiple: "{count} total messages"
+      messages_single: "Gotûbêja nû" # Original: New conversation
+      start: "Danûstandinê dest pê bikin" # Original: Start Conversation
+      read: "Xwendin" # Original: Read
+      cant_start: Can't Start Conversation
+      text_placeholder: "Peyama xwe binivîse" # Original: Type your message
+      send: "Peyam bişîne" # Original: Send Message
+      recovery_message: "Peyama pergalê: Hevdengiya şîfrekirinê winda kir û hat vegerandin" # Original: System message: Encryption sync lost and recovered
+      failed_message: "Failed to decrypt message, attempting recovery method #{method}"
+      cant_send: "You can't send a message until {username} responds (first message only)"
+      cant_send_toomany: "Please wait for {username}'s reply before sending more messages"
+      failed_to_decrypt: "[Deşîfrekirin bi ser neket]" # Original: [Failed to decrypt]
+      start_of_conversation: "Destpêka Hevpeyvînê" # Original: Start of Conversation

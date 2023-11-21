@@ -1,0 +1,18 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+imgur-upload:
+  admin:
+    settings:
+      hide-markdown-image: "Bişkojka wêneya Markdown veşêre" # Original: Hide Markdown image button
+      allow-paste: "Destûrê bide barkirin bi lêxistina wêneyekê" # Original: Allow upload by pasting an image
+      embed-type:
+        title: "Tîpa pêvekirin" # Original: Embed type
+        preview-with-link: "Pêşdîtin (1024px) bi girêdana wêneya tev-mezin" # Original: Preview (1024px) with link to full-size image
+        preview-without-link: "Pêşdîtin bê girêdan" # Original: Preview without link
+        full-with-link: "Wêneyek mezinahiya tevahî bi girêdan" # Original: Full-size image with link
+        full-without-link: "Wêneyek mezinahiya tevahî bêyî girêdan" # Original: Full-size image without link
+  forum:
+    upload: "Ji bo barkirinê çap bikin an bixin" # Original: Press or paste to upload
+    loading: "Barkirin..." # Original: Uploading...
+    done: "Done!" # Original: Done!
+    error: "Şaşî" # Original: Error
