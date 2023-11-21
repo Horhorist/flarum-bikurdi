@@ -1,0 +1,31 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-ignore-users:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+    permissions:
+      can_not_be_ignored_label: "Nayê paşguhkirin" # Original: Can not be ignored
+
+
+  # Translations in this namespace are used by the forum interface.
+  forum:
+
+    profile_link: "Bikarhênerên Ignored" # Original: Ignored Users
+
+    # These strings are used in the User Controls menu.
+    user_controls:
+      ignore_button: "Berçavnegirtin" # Original: Ignore
+      ignore_confirmation: "Ma hûn guman dikin ku hûn vê bikarhênerê paşguh bikin?" # Original: Are you sure you want to ignore this user?
+      unignore_button: "Neguhestin" # Original: Unignore
+      unignore_confirmation: "Ma hûn guman dikin ku hûn dixwazin vê bikarhênerê neguhezînin?" # Original: Are you sure you want to unignore this user?
+
+    badge:
+      user_label: "Bikarhêner paşguh kirin" # Original: Ignored user
+      discussion_label: "Ji hêla bikarhênerek paşguhkirî ve hatî destpêkirin" # Original: Started by an ignored user
+
+

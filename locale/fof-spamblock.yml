@@ -1,0 +1,11 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-spamblock:
+  forum:
+    user_controls:
+      spammer_button: "Spammer" # Original: Spammer
+      spammer_confirmation: "Are you sure you want to \n• Hide all the user's discussions & posts \n• [flarum/suspend] Suspend the user"
+
+  admin:
+    permissions:
+      spamblock_users_label: "Bikarhêner wekî spammer nîşan bide" # Original: Mark user as spammer

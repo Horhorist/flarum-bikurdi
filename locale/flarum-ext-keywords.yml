@@ -1,0 +1,14 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-keywords:
+  forum:
+    title: "Ferheng" # Original: Glossary
+    pagetitle: "Ferhengok Rûpel" # Original: Glossary Page
+    tagline: "Ma hûn dixwazin li ser şertên ku li ser vê malperê têne bikar anîn bêtir zanibin? Binêre Ferhengokê ku bêtir fêr bibin" # Original: Do you want to know more about the terms used on this site? See the Glossary to find out more
+    searchtext: "Ji bo lêgerînê bi ferhengokê binivîsin..." # Original: Type to search through glossary...
+  admin:
+    word: "Bêje" # Original: Word
+    removedef: "Delete pênase" # Original: Delete definition
+    definition: "Binavî" # Original: Definition
+    parseonce: "Di postekê de peyvan carekê parse bikin" # Original: Parse the words once in a post
+

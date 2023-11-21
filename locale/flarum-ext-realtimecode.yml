@@ -1,0 +1,8 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-realtimecode:
+  forum:
+    title: "Edîtorê Html" # Original: Html Editor
+    htmleditor: "Edîtorê Html" # Original: Html Editor
+    description: "Vê edîtorê Html koda HTML/Css piştgirî dike, bi tenê koda xwe binivîsin û encamê di wextê rast de di qutiya derketinê de bibînin." # Original: This Html editor support HTML/Css code, simply write your code and see the result in real time in the output box
+    outputtitle: "Derketina Pêşdîtina Zindî" # Original: Live Preview Output

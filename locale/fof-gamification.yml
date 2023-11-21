@@ -1,0 +1,70 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+core:
+  forum:
+    index_sort:
+      hot_button: "Trending" # Original: Trending
+
+fof-gamification:
+  forum:
+    votes: "Deng" # Original: Votes
+    vote_title: "Nîşan bide Kî Deng daye" # Original: Show Who Voted
+    nav:
+      name: "Rankings" # Original: Rankings
+    ranking:
+      rank: "Cîh" # Original: Place
+      name: "Bikaranîvan" # Original: User
+      amount: "Points" # Original: Points
+    notification:
+      upvote: "{username} upvoted your post"
+      downvote: "{username} downvoted your post"
+    user:
+      points: "Points: {points}"
+      rank: "{rank}"
+    modal:
+      title: "Dengdêr" # Original: Voters
+      upvotes_label: "Dengdêran:" # Original: Upvoters:
+    mod_item: "Dengdêran Binêre" # Original: View Voters
+  admin:
+    permissions:
+      vote_label: "Dengê erê / Dengê nerazî li mesajan" # Original: Upvote/Downvote posts
+      see_votes_label: "Binêre dengên erê/nerazî yên postê" # Original: See post upvotes/downvotes
+      see_ranking_page: "Rûpelê rêzgirtinê bibînin" # Original: See ranking page
+    page:
+      rankings:
+        blocked:
+          placeholder: "CDK2020, Ralkage, AngelAvila" # Original: CDK2020, Ralkage, AngelAvila
+          title: "Bikarhênerên Ignored" # Original: Ignored Users
+          help: "Ev bikarhêner dê li ser rûpela rêzgirtinê neyên nîşandan. Navên bikarhêneran divê bi kommayê û li pey valahiyek ji hev bên veqetandin." # Original: These users will not be shown on the ranking page. Usernames should be separated by a comma followed by a space.
+        title: "Rankings Page" # Original: Rankings Page
+        enable: "Wêneyên xwerû çalak bike" # Original: Enable custom images
+        custom_image_1: "Wêneyê cîhê 1mîn" # Original: 1st place image
+        custom_image_2: "Wêneyê cîhê 2" # Original: 2nd place image
+        custom_image_3: "Wêneyê cîhê 3" # Original: 3rd place image
+      votes:
+        points_title: "Points Placeholder" # Original: Points Placeholder
+        points_placeholder: "Xal:" # Original: Points: 
+        color_holder: "#ffffff" # Original: #ffffff
+        auto_upvote: "Dema ku têne şandin postên dengdanê bixweber" # Original: Auto upvote posts when posted
+        rate_limit: "Sînorek rêjeya dengdanê bicîh bike (10 çirk)" # Original: Enforce a vote rate limit (10 seconds)
+        discussion_page: "Tevahiya dengên posta orîjînal li ser navnîşa nîqaşan nîşan bidin" # Original: Show total votes of original post on discussions list
+        alternate_layout: "Ji bo nîşandana û/an kirina dengên erê/nerazî bi kar tînin" # Original: Use alternate layout to show and/or do upvotes/downvotes
+        title: "Deng" # Original: Votes
+        vote_color: "Reng deng da" # Original: Voted color
+        icon_name: "Îkona dengdanê/nerazîbûnê" # Original: Upvote/downvote icon
+        icon_help: "Her îkonek Font-Awesome ku paşgira -jor û -xwarê ye têxe. Nimûne: tîr, tiliyên tiliyan, şevron" # Original: Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron
+      save_settings: "Save mîhengan" # Original: Save settings
+      convert:
+        button: "Convert likes to upvotes" # Original: Convert likes to upvotes
+        help: "Heqên xwe yên berê ji flarum-ext-likes veguherînin dengên erênî, û her weha germbûna hemî nîqaşên heyî hesab bikin." # Original: Convert your previous likes from flarum-ext-likes into upvotes, as well as calculate the hotness for all current discussions.
+        converting: "Heqên we niha têne veguheztin. Piştî çend hûrdeman malpera xwe nûve bikin da ku pêvajo qediya bibînin. (Dibe ku dema veguheztinê li gorî hezkiriyên weya forumê demek dirêj bigire)" # Original: Your likes are now being converted. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total forum likes)
+        converted: "Successfully converted all {number} likes"
+      ranks:
+        title: "Ranks" # Original: Ranks
+        ranks: "Rêzên Custom" # Original: Custom ranks
+        number_title: "Divê çend nîşaneyên rêzê werin nîşandan?" # Original: How many rank badges should be shown?
+        help:
+          color: "#ffffff" # Original: #ffffff
+          help: "Hejmara pêwîst a dengan, navê rêzê, û rengê heksê yê rêzê têxe" # Original: Input the required number of upvotes, the name of the rank, and the hex color of the rank
+          points: "Points" # Original: Points
+          name: "Nav" # Original: Name

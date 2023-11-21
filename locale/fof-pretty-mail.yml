@@ -1,0 +1,21 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-pretty-mail:
+  admin:
+    nav:
+      desc: "Şablonên e-nameya HTML-a xwe xweş bikin." # Original: Customize your HTML email templates.
+    settings:
+      label: "Şablonên E-nameyê" # Original: Email Templates
+      reset: "Vegere ser Default" # Original: Revert to Default
+      confirm: "Ma hûn pê ewle ne ku hûn dixwazin ji bo şablona e-nameyê ya stock vegere" # Original: Are you sure you want to revert to the stock email template for
+      default: "Default Şablon" # Original: Default Template
+      newPost: "Flarum / abonetiya New Post Email" # Original: Flarum/subscriptions New Post Email
+      userMentioned: "Flarum / behsa E-nameya Bikarhêner Binavkirî" # Original: Flarum/mentions User Mentioned Email
+      postMentioned: "Flarum / behsa Post E-nameya Navnîşankirî dike" # Original: Flarum/mentions Post Mentioned Email
+      notifications: "Şablonên ragihandinê" # Original: Notification templates
+      notificationHelp: 'It is recommended to use "$forumStyle" for these emails as they may contain BBCODE. These emails also have "$user" available which contains the entire user model of the user being emailed.'
+      help: '"$body" will contain the actual content of the email, "$forumStyle" contains the <strong>entire forum CSS</strong>, "$url" is Flarums UrlGenerator, "$settings" allows you to interact with the SettingsRepositoryInterface, and "$link" contains the link within the email. See each template for how to use each variable.'
+    css_settings:
+      label: "Mîhengên CSS" # Original: CSS settings
+      help: You can choose to include the forum's CSS in the email's HTML code. If you enable this, you may have issues with certain email providers.
+      switch_label: "Tevahiya forumê CSS-ê tê de" # Original: Include full forum CSS

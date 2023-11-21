@@ -1,0 +1,18 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-oauth:
+  admin:
+    settings:
+      providers:
+        vkontakte:
+          description: You can register the application here {link}
+          client_id_label: => fof-oauth.ref.settings.client_id
+          client_secret_label: => fof-oauth.ref.settings.client_secret
+
+  lib:
+    providers:
+      vkontakte: "Vkontakte" # Original: Vkontakte
+
+  forum:
+    log_in:
+      with_vkontakte: Login with {provider}

@@ -1,0 +1,17 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-split:
+    admin:
+        permissions:
+            split_discussion_label: "Mesajên ji nîqaşan veqetînin" # Original: Split posts from discussions
+    forum:
+        post:
+            was_split_to: "{count, plural, one {{count} post was split to {target}.} other {{count} posts were split to {target}.}}"
+            was_split_from: "{count, plural, one {{count} post was split from {target}.} other {{count} posts were split from {target}.}}"
+        split:
+            from: "Ji vir veqetin" # Original: Split from here
+            to: "Li vir veqetin" # Original: Split to here
+        modal:
+            title: "Split gotûbêj" # Original: Split discussion
+            new_discussion_label: "Ji bo nîqaşa nû sernavê diyar bikin" # Original: Specify the title for the new discussion
+            submit_button: "Qelişandin" # Original: Split

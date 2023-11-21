@@ -1,0 +1,35 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+askvortsov-saml:
+  admin:
+    header:
+      text: "Piştrast bikin ku url-ya metadata an jî metadata tê dagirtin." # Original: Make sure that either the metadata url or the metadata is filled in.
+    title: "SAML2 Veavakirina SSO" # Original: SAML2 SSO Configuration
+    labels:
+      idp_metadata_url: "URL-ya Metadata Pêşkêşkara Nasnameyê (Alternatîf ji XML re)" # Original: Identity Provider Metadata URL (Alternative to XML)
+      idp_metadata: "Metadata XML ya Pêşkêşvanê Nasnameyê (Alternatîf ji URL-ê re)" # Original: Identity Provider Metadata XML (Alternative to URL)
+      only_option: "SAML2 SSO tenê wekî vebijarka têketinê bikar bînin?" # Original: Use SAML2 SSO as only login option?
+      sync_attributes: "Taybetmendiyên hevdeng (Avatar, Kom, Bio, û Profîl)? Pêdiviya dirêjkirina askvortsov/auth-senkronîzekirinê heye." # Original: Sync Attributes (Avatar, Groups, Bio, and Profile)? Requires askvortsov/auth-sync extension.
+      nameid_format: "Forma NameID" # Original: NameID Format
+      slo: "SLO çalak bike? Ger IDP-ya we piştgirî nede vê yekê, dê tiştek neke." # Original: Enable SLO? If your IDP does not support this, this will do nothing.
+      authn_requests_signed: "Daxwazên authn îmze bikin?" # Original: Sign authn requests?
+      logout_request_signed: "Daxwazên derketinê îmze bikin?" # Original: Sign logout requests?
+      logout_response_signed: "Bersivên derketinê îmze bikin?" # Original: Sign logout responses?
+      sign_metadata: "Metadata îmze bike?" # Original: Sign metadata?
+      want_assertions_encrypted: "Daxuyaniyên şîfrekirî dixwazin?" # Original: Want Assertions Encrypted?
+      want_assertions_signed: "Dixwazin Daxuyaniyên îmzekirî?" # Original: Want Assertions Signed?
+      want_messages_signed: "Mesajên îmzekirî dixwazin?" # Original: Want Messages Signed?
+      x509_cert: "Sertîfîkaya x509 (ji bo îmzakirinê hewce ye, heke çalak be)" # Original: x509 Certificate (needed for signing, if enabled)
+      x509_key: "X509 Mifteya Taybet (ji bo îmzekirinê hewce ye, heke çalak be)" # Original: x509 Private Key (needed for signing, if enabled)
+    options:
+      nameid_format:
+        persistent: "Berdewam (Tê pêşniyar kirin ger piştgirî kirin)" # Original: Persistent (Recommended if supported)
+        emailAddress: "E-name (Destpêk. Heke Persistent nayê piştgirî kirin bikar bînin)" # Original: Email (Default. Use if Persistent not supported)
+        unspecified: "Nenaskirî" # Original: Unspecified
+  forum:
+    log_in:
+      with_saml_button: "SAML2 SSO" # Original: SAML2 SSO
+      open_popup: "Ji bo Têketinê li vir bikirtînin" # Original: Click Here to Login
+      enable_popups: "Peldankên ku ji bo têketinê / qeydkirinê çalak bikin" # Original: Enable Popups to Login / Register
+    sign_up:
+      post_saml_title: "Yek Pêngava Dawî..." # Original: One Last Step...

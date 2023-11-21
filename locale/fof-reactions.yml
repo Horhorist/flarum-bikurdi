@@ -1,0 +1,50 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-reactions:
+  forum:
+    disabled-reaction: You can't use this reaction right now, please refresh the page
+    warning: "Reaksiyona we hat guhertin" # Original: Your reaction was converted
+    notification: '{username} reacted with {reaction} to your post'
+    settings:
+        notify_post_reacted_label: "Kesek li ser yek ji postên min reaksiyon dike" # Original: Someone reacts to one of my posts
+    reacting-own-post: "Hûn nikarin ji posta xwe re bertek nîşan bidin" # Original: You cannot react to your own post
+    modal:
+        title: "Reactions" # Original: Reactions
+    mod_item: "Reaksiyonên bibînin" # Original: View Reactions
+
+  admin:
+    permissions:
+        react_posts_label: "Bertek nîşanî mesajan bidin" # Original: React to posts
+        see_reactions_label: "Binêrin kê li ser postan bertek nîşan da" # Original: See who reacted on posts
+
+    page:
+      reactions:
+        title: "Reaksiyonên Custom" # Original: Custom Reactions
+        reactions: "Reaksiyonên niha" # Original: Current Reactions
+        Helptext: "Navê (nasname) îkonê emoji an tîp-awesome têxe û kîjan celebê ku hûn dixwazin hilbijêrin." # Original: Input the name (identifier) of the emoji or font-awesome icon and select which type you would like.
+        help:
+          display: "Pêşkêşî" # Original: Display
+          identifier: "Nasname" # Original: Identifier
+
+      convert:
+        help: "Ger we tenê dirêjkirina xwe nûve kir, dê reaksiyonên we werin veguheztin. Ger we tenê vê pêvekê saz kir, hûn dikarin bi ewlehî vê peyamê paşguh bikin." # Original: If you just updated your extension, your reactions will have to be converted. If you just installed this extension, you can saftely ignore this message.
+        button: "Reaksiyonên kevn veguherînin" # Original: Convert old reactions
+        converting: "Reaksiyonên we niha diguherin. Piştî çend hûrdeman malpera xwe nûve bikin da ku pêvajo qediya bibînin. (Dibe ku dema veguheztinê li gorî hejmara giştî ya reaksiyonên we demek bigire)" # Original: Your reactions are now converting. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total number of reactions)
+        converted: "Successfully converted all {number} likes"
+
+      settings:
+        save_settings: "Save Settings" # Original: Save Settings
+        integrations:
+          legend: "Integrations" # Original: Integrations
+          warning: "Heman reaksiyon <strong>nikare</strong> bibe dengvedanek mîna<strong>û</strong>erê." # Original: The same reaction <strong>cannot</strong> be converted to a like <strong>and</strong> an upvote
+          gamification:
+            legend: "Gamification" # Original: Gamification
+            upvoteLabel: "Reaksiyonên bi dengên erênî veguherînin" # Original: Convert reactions to upvotes
+            upvoteHelptext: "Nasnameya reaksiyona ku hûn dixwazin bixweber veguhezînin dengdanek erênî binivîsin" # Original: Enter the identifier of the reaction you would like to automatically convert into an upvote
+            downvoteLabel: "Reaksiyonên bi dengan biguherînin" # Original: Convert reactions to downvotes
+            downvoteHelptext: "Nasnameya reaksiyona ku hûn dixwazin bixweber veguhezînin dengek nerazî binivîsin" # Original: Enter the identifier of the reaction you would like to automatically convert into an downvote
+
+          likes:
+            legend: "Likes" # Original: Likes
+            Label: "Reaksiyonên bi ecibandin veguherînin" # Original: Convert reactions to likes
+            Helptext: "Nasnameya reaksiyona ku hûn dixwazin bixweber veguhezînin mîna mîna xwe binivîsin" # Original: Enter the identifier of the reaction you would like to automatically convert into a like

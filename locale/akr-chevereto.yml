@@ -1,0 +1,11 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+akr-chevereto:
+    admin:
+      setting:
+         url: "URL-a malpera hedefa Chevereto" # Original: URL of the target Chevereto website
+         insert_type: "Kodên xwe bicîh bikin ku bixweber têxin nav naveroka armanckirî ya biguhezbar" # Original: Embed codes to auto insert in the target editable content
+    forum:
+      composer:
+        upload_button: "Wêneyê barbike" # Original: Upload picture
+        upload_button_details: "Wêneyê barbike û têxe" # Original: Upload and insert picture

@@ -1,0 +1,139 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-upload:
+  admin:
+    pane:
+      title: "Upload" # Original: Upload
+      description: "Karûbar û vebijarkên barkirinê saz bikin." # Original: Set up uploading services and preferences.
+    help_texts:
+      disable-download-logging: |
+        Disable logging every download made by users of your forum. Keeping it enabled allows you to view the number of downloads and other metrics in the nearby future.
+      disable-hotlink-protection: |
+        Hotlink protection prevents opening downloads from other sites. Current method requires a csrf token and post id.
+      download_templates: |
+        Download templates are how uploads are shown on your forum, eg like previews, buttons. Currently available:
+      mime_types: |
+        Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.
+      resize: |
+        Choose whether you want to resize your images before they get uploaded. You can choose a maximum width and height, in pixels. The resizing process keeps the aspect ratio of the images.
+      client_extension: |
+        By default Upload will choose a safe file extension based on the MIME type.
+        For some file types based around ZIP or binary data this can result in generic extensions being used instead of the expected one.
+        Here you can enter a comma-separated list of file extensions that will be kept verbatim.
+      watermark: |
+        Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.
+      s3_compatible_storage: |
+        The following settings are only required when using S3 compatible storage. If you use AWS, you can leave them blank.
+      s3_acl: |
+        The ACL that should be applied to the uploaded object (default: private). For possible values, see https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl
+      composer_buttons: |
+        By default both the media manager button and upload button are visible. You can also choose to display only one button.
+    labels:
+      aws-s3:
+        bucket: "Satil" # Original: Bucket
+        key: "Qûfle" # Original: Key
+        region: "Herêm" # Original: Region
+        secret: "Dizî" # Original: Secret
+        title: "Mîhengên hilanînê AWS S3" # Original: AWS S3 storage settings
+        advanced_title: "Mîhengên hilanînê yên pêşkeftî yên S3" # Original: Advanced S3 storage settings
+        endpoint: "Endpoint" # Original: Endpoint
+        use_path_style_endpoint: "Xala dawiya şêwaza rê bikar bînin" # Original: Use path style endpoint
+        acl: "Lîsteya Kontrola Gihîştinê (ACL)" # Original: Access Control List (ACL)
+      disable-download-logging:
+        title: "Daxistina têketinê neçalak bike" # Original: Disable logging downloads
+        toggle: "Neçalak bike" # Original: Disable
+      disable-hotlink-protection:
+        title: "Parastina hotlinkê neçalak bike" # Original: Disable hotlink protection
+        toggle: "Neçalak bike" # Original: Disable
+      imgur:
+        client_id: "Nasnameya muwekîlê Imgur" # Original: Imgur client ID
+        title: "Mîhengên hilanîna wêneyê Imgur" # Original: Imgur image storage settings
+      local:
+        cdn_url: "URL-ya radestkirina naverokê (pelên pêşgiran)" # Original: Content Delivery URL (prefixes files)
+        title: "Mîhengên hilanînê herêmî" # Original: Local storage settings
+      qiniu:
+        title: "Mîhengên hilanînê Qiniu" # Original: Qiniu storage settings
+        key: "Qûfle" # Original: Key
+        secret: "Dizî" # Original: Secret
+        bucket: "Satil" # Original: Bucket
+      preferences:
+        max_file_size: "Mezinahiya pelê ya herî zêde (bi kilobytes)" # Original: Maximum file size (in kilobytes)
+        mime_types: "Tîpa mimeya xwe mîheng bikin, nexşeya adapterê barkirin" # Original: Configure your mime type, upload adapter mapping
+        title: "tercîhên giştî" # Original: General preferences
+      resize:
+        max_width: "Firehiya/bilindiya wêneyê herî zêde" # Original: Maximum image width/height
+        title: "Mezinahiya wêneyê" # Original: Image resize
+        toggle: "Mezinkirina wêneyan" # Original: Resize images
+      client_extension:
+        title: "Zêdekirina pelan ji hêla bikarhêner ve hatî peyda kirin" # Original: User-provided file extensions
+      watermark:
+        file: "Wêneyê nîşana xweya avê barkirin" # Original: Upload your watermark image
+        position: "helwesta Watermark" # Original: Watermark position
+        title: "Wêneyên Watermark" # Original: Watermark images
+        toggle: "Wêneyên Watermark" # Original: Watermark images
+      composer_buttons:
+        title: "Bişkojkên Composer" # Original: Composer buttons
+        options:
+          both: "Herdû" # Original: Both
+          upload-btn: "Bişkojka barkirinê tenê" # Original: Upload button only
+          media-btn: "Bişkojka rêveberê medyayê tenê" # Original: Media manager button only
+
+    permissions:
+      download_label: "Pelên dakêşin" # Original: Download files
+      upload_label: "Pelên barkirin" # Original: Upload files
+      view_user_uploads_label: "Barkirinên bikarhêneran bibînin" # Original: View user uploads
+      delete_uploads_of_others_label: "Barkirinên bikarhêner jêbirin" # Original: Delete user uploads
+    templates:
+      file: "Şablona daxistina pelê ya xwerû" # Original: Default file download template
+      file_description: |
+        Shows the file name and some general information. Proxies downloads through php, allowing for statistics gathering and hotlink protection.
+      image: "Şablon dakêşana wêneya xwerû" # Original: Default image download template
+      image-preview: "Temam şablonê pêşdîtina wêneyê" # Original: Complete image preview template
+      image-preview_description: |
+        Shows the complete image in-line. No download functionality, no statistics are gathered and hotlink protection is ignored.
+      image_description: |
+        Shows a thumbnail of the image and proxies download through php. Allowing statistics to be gathered and hotlink protection.
+      just-url: "Tenê URL" # Original: Just URL
+      just-url_description: |
+        Inserts just the URL. Rendering can be handled by other extensions with auto-link ability. No download functionality, no statistics are gathered and hotlink protection is ignored.
+    upload_methods:
+      aws-s3: "S3 / Lihevhatî" # Original: S3/Compatible
+      imgur: "Imgur" # Original: Imgur
+      local: "Herêmî" # Original: Local
+      ovh-svfs: "OVH SVFS" # Original: OVH SVFS
+      qiniu: "QiNiu" # Original: QiNiu
+  forum:
+    media_manager: "rêveberê medyayê" # Original: Media manager
+
+    buttons:
+      attach: "Pêvcebirandin" # Original: Attach
+      upload: "Upload" # Original: Upload
+      user_uploads: "Barkirinên bikarhêner" # Original: User uploads
+      cancel: "Bişûndekirin" # Original: Cancel
+      media: "Medya min" # Original: My media
+
+    file_list:
+      loading: "Pelan tê barkirin..." # Original: Loading files...
+      empty: "Pelên ku nîşan bidin tune." # Original: There are no files to show.
+      release_to_upload: "Ji bo barkirinê berdan" # Original: Release to upload
+      modal_empty_desktop: "Lîsteya pelê we vala ye. Bişkojkê bikirtînin an pelek li vir bikişînin da ku bar bikin." # Original: Your file list is empty. Click the button or drag a file here to upload.
+      modal_empty_phone: "Lîsteya pelê we vala ye. Bişkojka jorîn bikirtînin da ku pelek barkirin." # Original: Your file list is empty. Tap the button above to upload a file.
+      select_file_a11y_label: Select file "{fileName}"
+      confirm_selection_btn: "{fileCount, plural, =0 {None selected} one {Select file} other {Select files}}"
+      load_more_files_btn: "Pelên bêtir barkirin" # Original: Load more files
+      hide_file:
+        btn_a11y_label: Hide "{fileName}" from media manager
+        hide_confirmation: Are you sure you want to hide "{fileName}"? Hiding a file will only remove it from your media manager and will not affect existing posts.
+        hide_success: "Pelê veşartî" # Original: File hidden
+        hide_fail: Couldn't hide file "{fileName}"
+        loading: "Pelê veşartî..." # Original: Hiding file...
+
+    states:
+      error: "Şaşî" # Original: Error
+      loading: "Barkirin" # Original: Uploading
+      unauthorized: "Destûr nayê dayîn ku hûn pelan dakêşin" # Original: You are not allowed to download files
+  api:
+    upload_errors:
+      forbidden_type: "Barkirina pelên bi vî rengî nayê destûr kirin." # Original: Uploading files of this type is not allowed.
+      unsupported_type: 'Upload adapter does not support the provided mime type: {mime}.'
+      could_not_detect_mime: "Cûreya MIME ya vê pelê nehat tespîtkirin, ji kerema xwe dîsa biceribîne." # Original: Could not detect the MIME type of this file, please try again.

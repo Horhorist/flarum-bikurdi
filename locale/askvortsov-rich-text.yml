@@ -1,0 +1,43 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+askvortsov-rich-text:
+  admin:
+    settings:
+      toggle_on_editor: "Veguheztina moda nivîsa dewlemend li ser edîtorê nîşan bide?" # Original: Show rich text mode toggle on editor?
+  lib:
+    composer:
+      toggle_button: "Moda Nivîsara Dewlemend biguhezînin" # Original: Toggle Rich Text Mode
+      insert_button: "Lêzêdekirin" # Original: Insert
+      insert_image:
+        src_placeholder: "Girêk" # Original: Link
+        title_placeholder: "Nav" # Original: Title
+      insert_link:
+        text_placeholder: "Nivîstok" # Original: Text
+        href_placeholder: "URL" # Original: URL
+        title_placeholder: "Sernav (li ser hoverê nîşan dide)" # Original: Title (shows on hover)
+        remove_button: "Dûrxistin" # Original: Remove
+      additional_items_tooltip: "Controls Additional" # Original: Additional Controls
+      bold_tooltip: Bold text <{modifierKey}-b>
+      code_tooltip: Inline code <{modifierKey}-`>
+      code_block_tooltip: "Blokek kodê têxe" # Original: Insert a code block
+      header_tooltip: Change to header {level} <shift-{modifierKey}-{level}>
+      horizontal_rule_tooltip: "Qaîdeya horizontal têxe" # Original: Insert horizontal rule
+      image_tooltip: "Wêneyek zêde bikin" # Original: Add an image
+      italic_tooltip: Italic text <{modifierKey}-i>
+      link_tooltip: "Zencîreyek zêde bikin" # Original: Add a link
+      ordered_list_tooltip: Numbered list <shift-{modifierKey}-9>
+      paragraph_tooltip: Change to paragraph <shift-{modifierKey}-0>
+      quote_tooltip: Insert a quote <{modifierKey}-q>
+      spoiler_block_tooltip: "Block Spoiler / Dropdown" # Original: Block Spoiler/Dropdown
+      spoiler_inline_tooltip: Spoiler  <{modifierKey}-;>
+      strike_tooltip: "Strikethrough <alt-shift-5>" # Original: Strikethrough <alt-shift-5>
+      sub_tooltip: Subscript <{modifierKey}-,>
+      sup_tooltip: Superscript <{modifierKey}-.>
+      text_type_tooltip: "Tîpa Nivîsarê Hilbijêre" # Original: Select Text Type
+      unordered_list_tooltip: Bulleted list <shift-{modifierKey}-8>
+
+  forum:
+    settings:
+      composer_heading: "Composer" # Original: Composer
+      use_rich_text_editor_label: "Edîtorê nivîsa dewlemend bikar bînin?" # Original: Use rich text editor?
+      rich_text_compact_paragraphs_label: Don't separate paragraphs with newline.

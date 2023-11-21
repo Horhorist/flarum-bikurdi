@@ -1,0 +1,27 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-share-social:
+  admin:
+    settings:
+      canonical-urls: "Ji bo parvekirinê URL-yên kanonîkî bikar bînin" # Original: Use canonical URLs for sharing
+  forum:
+    discussion:
+      share_button: "Par" # Original: Share
+
+    modal:
+      title: "Par" # Original: Share
+
+  lib:
+    networks:
+      facebook: "Facebook" # Original: Facebook
+      twitter: "Twitter" # Original: Twitter
+      linkedin: "LinkedIn" # Original: LinkedIn
+      reddit: "Reddit" # Original: Reddit
+      whatsapp: "WhatsApp" # Original: WhatsApp
+      telegram: "Têlxiram" # Original: Telegram
+
+      vkontakte: "VKontakte" # Original: VKontakte
+      odnoklassniki: "Odnoklassniki" # Original: Odnoklassniki
+      my_mail: "Cîhana min" # Original: My World
+      qq: "QQ" # Original: QQ
+      qzone: "QZone" # Original: QZone

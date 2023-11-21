@@ -1,0 +1,14 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-socialprofile:
+  forum:
+    edit:
+      edit: "Weşandin" # Original: Edit
+      add: "Lêzêdekirin" # Original: Add
+      headtitle: "Bişkokên Biguherîne" # Original: Edit Buttons
+      title: "Nav" # Original: Title
+      url: "URL" # Original: URL
+      submit: "Rizgarkirin" # Original: Save
+      delete: "Jêbirin" # Original: Delete
+      deletetitle: "Bişkojka jêbirin" # Original: Delete Button
+      save_disabled_fetching_favicons: "Yek an çend îkon têne kişandin. Ji kerema xwe bisekinin." # Original: One or more icons are being fetched. Please wait.

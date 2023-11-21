@@ -1,0 +1,29 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-sitemap:
+    admin:
+      settings:
+        title: "Nexşeya Malperê ya FoF" # Original: FoF Sitemap
+        mode_label: "Moda operasyonê" # Original: Operation mode
+        mode_help: "Hilbijartina moda rast ji bo mezinahiya forumê pir girîng e." # Original: Selecting the correct mode for your size of forum is vitally important.
+        mode_help_runtime_label: "Moda Runtime" # Original: Runtime Mode
+        mode_help_runtime: "Ji bo forumên piçûk, bi îhtîmalek mezin li ser hawîrdorên mêvandariya hevpar, bi nîqaş, bikarhêner, etîket û rûpelan ku ji 10.000 hêmanan kêmtir in. Nexşeya malperê li ser her daxwazekê di firînê de tê çêkirin." # Original: For small forums, most likely on shared hosting environments, with discussions, users, tags and pages summed up being less than 10.000 items. The sitemap is generated on the fly at each request.
+        mode_help_schedule: "Modên jêrîn peywirên xwe li bernameya Flarum zêde dikin." # Original: The following modes add their tasks to the Flarum schedule.
+        mode_help_schedule_setup: "Bêyî ku plansazkerê Flarum rast were saz kirin, modên jêrîn dê neyên xebitandin. Li vir binêrin <a>ji bo bêtir agahdarî</a>." # Original: Without the Flarum scheduler correctly setup, the following modes will not run. Refer here <a>for more information</a>.
+        mode_help_cache_disk_label: "Moda Cache / Moda Dîskê" # Original: Cache Mode/Disk Mode
+        mode_help_cache_disk: "Ji bo forumên piçûk an navîn çêtirîn, bi îhtîmalek mezin li ser hawîrdorên mêvandariyê ku destûrê didin cronjobs û çalakkirina nexşerêya Flarum (li jêr binêre), û digel nîqaşan, bikarhêner, etîket û rûpelan ku ji 50.000 tiştan kêmtir in." # Original: Best for small or medium forums, most likely on hosting environments allowing cronjobs and enabling the Flarum scheduler (see below), and with discussions, users, tags and pages summed up being less than 50.000 items.
+        mode_help_large: "50.000 sînorê teknîkî ji bo pelên nexşeya malperê ye. Heke hûn bêtir tomar hene ku hûn hilînin, vebijarka jêrîn bikar bînin!" # Original: 50.000 is the technical limit for sitemap files. If you have more entries to store, use the following option!
+        mode_help_multi_label: "Moda Pir-pelê" # Original: Multi-file Mode
+        mode_help_multi: "Ji bo forumên mezintir çêtirîn, ji 50.000 tiştan dest pê dike. Parçeyek pirjimar, pelên nexşeya malperê yên pêçandî dê di peldanka / public de bêne çêkirin û hilanîn" # Original: Best for larger forums, starting at 50.000 items. Mult part, compressed sitemap files will be generated and stored in the /public folder
+        advanced_options_label: "Vebijarkên pêşkeftî" # Original: Advanced options
+        frequency_label: "Divê çend caran plansazker ji nû ve cache an nexşeya malpera dîskê ava bike?" # Original: How often should the scheduler re-build the cache or disk based sitemap?
+        modes:
+            runtime: "Runtime" # Original: Runtime
+            cache: "Cache" # Original: Cache
+            cache_disk: "Lewha" # Original: Disk
+            multi_file: "Pir pel" # Original: Multi file
+        frequency:
+            hourly: "Seetî" # Original: Hourly
+            twice_daily: "Rojane du caran" # Original: Twice daily
+            daily: "Rojane" # Original: Daily
+

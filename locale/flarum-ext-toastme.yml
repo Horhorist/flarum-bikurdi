@@ -1,0 +1,25 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-toastme:
+  admin:
+    enabletoast: "Hişyariya Toastê çalak bike / neçalak bike" # Original: Enable/Disable Toast Alert
+    helpenable: "Vê mîhengê bikar bînin da ku hişyariya toastê çalak bikin an neçalak bikin" # Original: Use this setting to enable or disable the toast alert
+    offsetyy: "Offset Y - marjîna kenda vertîkal (px) (ji bo xwerû vala ye)" # Original: Offset Y - vertical axis margin (px) (blank for default)
+    offsetydesc: "marjîna eksê vertîkal - dikare bibe hejmarek ku nirxa pixel nîşan dide. Mînak 20 (pixel)" # Original: vertical axis margin - can be a number indicating pixel value. Example 20 (pixel)
+    offsetxx: "Offset X - marjîna eksê orîzontal (px) (ji bo xwerû vala ye)" # Original: Offset X - orizontal axis margin (px) (blank for default)
+    offsetxdesc: "marjîna axeke orîzontal - dikare bibe hejmarek ku nirxa pixel nîşan dide. Mînak 20 (pixel)" # Original: orizontal axis margin - can be a number indicating pixel value. Example 20 (pixel)
+    dest: "navnîşana URL" # Original: URL destination
+    destdesc: "URL-ya ku gerok divê bi tikandina toastê ve were rêve kirin" # Original: URL to which the browser should be navigated on click of the toast
+    duration: "Demjimêra ku divê toast were xuyang kirin -1 ji bo tosta daîmî" # Original: Duration for which the toast should be displayed -1 for permanent toast
+    durdesc: Use milliseconds - example "3000" for 3 seconds
+    gravity: Gravity - Could be "top" or "bottom"
+    gravdesc: "Set pozîsyona toast, jor an jêr têne qebûl kirin" # Original: Set the position of the toast, top or bottom are accepted
+    position: Position - Clould be "left", "right" or "center"
+    posdesc: "Li ku derê hûn dixwazin ku tost xuya bibe? çep, rast an navend?" # Original: Where u want that the toast appear? left, right or center?
+    background: "Rengê Paşê (forma hex)" # Original: Background Color (hex format)
+    backgrounddesc: put your background color in HEX format - eg "#ffcc00"
+    message: "Nivîsa Toast" # Original: Text of the Toast
+    messagedesc: "Li vir hûn dikarin nivîsa tosta hişyariya xwe bidin" # Original: Here u can put the text of your alert toast
+  forum:
+    message1: "Rastiyek demek dirêj ve hatî destnîşan kirin ku xwendevan dema ku li sêwirana wê dinihêre dê ji naveroka xwendinê ya rûpelê veqete." # Original: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+

@@ -1,0 +1,21 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-guestengagement:
+  forum:
+    hello: Hello! You seem to be interested in this forum, but you haven't registered an account yet.
+    whenucreate: "Dema ku hûn hesabek çêbikin, em ê karibin bi rastî tiştê ku we xwendiye bi bîr bînin, da ku hûn tam li cîhê ku we hiştibin hilbijêrin." # Original: When you create an account, we will be able to remember exactly what you have read, so you can pick up exactly where you left off.
+    uwillreceive: You will receive notifications, here or by email, when someone replies to you. You can also "Like" to show your appreciation.
+    hellops: "Slav! Hûn dixuye ku hûn bi vê postê re eleqedar dibin!" # Original: Hello! You seem to be interested in this post!
+    whenucreateps: "Dema ku hûn hesabek çêbikin, em ê karibin bi rastî tiştê ku we xwendiye bi bîr bînin û hûn ê bistînin" # Original: When you create an account, we will be able to remember exactly what you have read and you will receive
+    uwillreceiveps: notifications, here or by email, when someone replies to you. You can also "Like" to show your appreciation.
+  admin:
+    afterxpost: "Piştî X postê qutiyek hişyariyê nîşan bidin" # Original: Display an alert box After X post
+    afterxpostdesc: "jimare qebûl bike, xwerû 0 e (qut dê li ser herikên postê were xuyang kirin)" # Original: accept number, default is 0 (box will be displayed on top of post streams)
+    autohide: "Qutiya veşartina otomatîkî piştî X çirkeyan" # Original: Auto hide box after X seconds
+    autohidedesc: "millisecondê bikar bînin, mînakî 5 saniyan 5000 bikar bînin" # Original: use millisecond, e.g for 5 sec use 5000
+    changetextbox: "Ji bo qutîkê nivîsê biguherînin" # Original: Change text for the box
+    changetextboxdesc: "Li vir hûn dikarin nivîsê ji bo qutiya hişyariyê ya ku DI NAVBERA POSTÊN DE ye saz bikin" # Original: Here u can set the text for the alert box located BETWEEN POSTS
+    maintitle: "TITLE ji bo qutîkê biguherînin" # Original: Change TITLE for the box
+    maintitledesc: "Li vir hûn dikarin Sernavê ji bo qutiya hişyariyê ya ku DI NAVBERA POSTÊN DE ye destnîşan bikin" # Original: Here u can set the Title for the alert box located BETWEEN POSTS
+    enablealbox: "Li ser Malperê Qutiya Hişyariyê Çalak/Neçalak bike" # Original: Enable/Disable Alert Box on Homepage
+    enablepostbox: Enable/Disable "Between Post" box

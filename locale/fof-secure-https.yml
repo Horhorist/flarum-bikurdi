@@ -1,0 +1,9 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-secure-https:
+  admin:
+    settings:
+      replace: "Wêneyên proxy bi rêya HTTPS" # Original: Proxy images through HTTPS
+  forum:
+    removed: "Wêne ji ber nebûna piştevaniya HTTPS-ê hate rakirin." # Original: Image removed due to the lack of support for HTTPS.
+    show: "Herçi jî nîşan bide" # Original: Show Anyway

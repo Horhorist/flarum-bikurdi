@@ -1,0 +1,27 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flagrow-ads:
+    admin:
+        buttons:
+            save: "Save mîhengan" # Original: Save settings
+        positions:
+            under-header:
+                title: "Helwesta reklamê di bin sernavê navîgasyonê de" # Original: Ad position under navigational header
+                placeholder: "Koda reklama xwe li vir têxe." # Original: Insert your ad code here.
+            between-posts:
+                title: "Helwesta reklamê di navbera postan de" # Original: Ad position between posts
+                placeholder: => flagrow-ads.admin.positions.under-header.placeholder
+            under-nav-items:
+                title: "Helwesta reklamê di stûna çepê de li binê etîketên li ser rûpelê pêşîn" # Original: Ad position in the left column under tags on frontpage
+                placeholder: => flagrow-ads.admin.positions.under-header.placeholder
+        settings:
+            adsense-title: "Mîhengên AdSense" # Original: AdSense settings
+            position-title: "Cihên reklamê" # Original: Ad Placements
+            adsense-enable: "AdSense çalak kirin" # Original: AdSense enabled
+            adsense-client-id: "Nasnameya weşangerê xwe bidin" # Original: Provide your publisher ID
+            start-from-post: "Diyar bikin ku ji kîjan postê dest pê dike ku reklamek nîşan bide" # Original: Specify from which post to start to show an ad
+            between-n-posts: "Piştî çend postan diyar bikin ku reklamek bi cih bikin" # Original: Specify after how many posts to place an ad
+            header-only-frontpage: "Di binê reklama sernavê navîgasyonê de tenê li ser rûpela pêşîn nîşan dide" # Original: Under navigational header ad only shows on front page
+        tab:
+            title: "Reqlam" # Original: Advertising
+            description: "Vebijêrk û pozîsyonên reklaman bicîh bikin." # Original: Set ads preferences and positions.

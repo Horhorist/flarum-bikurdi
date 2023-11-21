@@ -1,0 +1,10 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-readmore:
+  forum:
+    readmore: "Read More..." # Original: Read More...
+  admin:
+    charlenght: "Dirêjahiya Karaktera" # Original: Character Lenght
+    charlenghtdesc: Set the number of characters beyond which to insert the "read more" link
+    AlsoPost: "Ji bo PostStream Excerpt çalak bike" # Original: Enable Excerpt for PostStream
+    AlsoPostdesc: "Ev ê dihêle ku dirêjkirin bi hemî posta weya Flarum re bixebite (ne tenê li ser Rûpelê Profîl)" # Original: This will allow extension to work with all of your Flarum post (not only on Profile Page)

@@ -1,0 +1,13 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-socialcards:
+  admin:
+    settings:
+      showfacebook: "Facebookê çalak bike" # Original: Enable Facebook
+      fblink: "Girêdana Facebookê" # Original: Facebook Link
+      showyoutube: "Youtube çalak bike" # Original: Enable Youtube
+      ytlink: "Link Youtube" # Original: Youtube Link
+      showtwitter: "Twitter çalak bike" # Original: Enable Twitter
+      twlink: "Girêdana Twitter" # Original: Twitter Link
+      ghlink: "Girêdana GitHub" # Original: GitHub Link
+      showGithub: "GitHub çalak bike" # Original: Enable GitHub

@@ -1,0 +1,8 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-pwgen:
+  forum:
+    generatebtn: "Şîfreya Ewle çêbikin" # Original: Generate Secure Password
+  admin:
+    passlenght: "Dirêjahiya şîfreyê" # Original: Password Length
+    pwhelp: "Li vir dirêjahiya şîfreya xweya ewle binivîsin" # Original: Type here the length of your secure password

@@ -1,0 +1,39 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-pages:
+  admin:
+    edit_page:
+      content_label: => fof-pages.ref.content
+      content_placeholder: => fof-pages.ref.content
+      delete_page_button: "Rûpelê jêbirin" # Original: Delete page
+      delete_page_confirmation: "Ma tu bi rastî dixwazî ​​vê rûpelê jêbibî?" # Original: Are you sure you want to delete this page?
+      hidden_label: "Wek pêşnuma tomar bike" # Original: Save as draft
+      restricted_label: "Gihîştinê sînordar bike (mîheng bike kî dikare di tabloya Destûran de bigihîje)" # Original: Restrict access (configure who can access in the Permissions tab)
+      html_label: "HTML-ê çalak bike" # Original: Enable HTML
+      set_as_home_page_confirmation: "Ma hûn guman dikin ku hûn dixwazin vê rûpelê wekî rûpela xweya malê destnîşan bikin?" # Original: Are you sure you want to set this page as your home page?
+      slug_label: => fof-pages.ref.slug
+      slug_placeholder: => fof-pages.ref.slug
+      submit_button: => core.ref.save_changes
+      title: => fof-pages.ref.create_page
+      title_label: => fof-pages.ref.title
+      title_placeholder: => fof-pages.ref.title
+      url_label: => fof-pages.ref.url
+      url_placeholder: => fof-pages.ref.url
+    pages:
+      create_button: => fof-pages.ref.create_page
+    pages_list:
+      empty_text: "Wusa dixuye ku tu rûpel li vir tune." # Original: It looks like there are no pages here.
+      title: => fof-pages.ref.title
+    permissions:
+      restricted: "Rûpelên qedexekirî bibînin" # Original: View restricted pages
+    badges:
+      hidden: "Draft" # Original: Draft
+      restricted: "Bisînorkirî" # Original: Restricted
+
+  ref:
+    content: "Dilşad" # Original: Content
+    create_page: "Rûpelê çêbikin" # Original: Create page
+    pages: "Pages" # Original: Pages
+    slug: "Şeytanok" # Original: Slug
+    title: "Nav" # Original: Title
+    url: "URL" # Original: URL

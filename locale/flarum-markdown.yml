@@ -1,0 +1,14 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-markdown:
+  forum:
+    composer:
+      bold_tooltip: "Nivîsa stûr zêde bikin" # Original: Add bold text
+      code_tooltip: "Kodê têxe" # Original: Insert code
+      header_tooltip: "Nivîsara sernivîsê lê zêde bike" # Original: Add header text
+      image_tooltip: "Wêneyek zêde bikin" # Original: Add an image
+      italic_tooltip: "Nivîsa îtalîk zêde bikin" # Original: Add italic text
+      link_tooltip: "Zencîreyek zêde bikin" # Original: Add a link
+      ordered_list_tooltip: "Lîsteyek hejmarkirî zêde bikin" # Original: Add a numbered list
+      quote_tooltip: "Gotarek têxe" # Original: Insert a quote
+      unordered_list_tooltip: "Lîsteyek gulebarkirî zêde bikin" # Original: Add a bulleted list

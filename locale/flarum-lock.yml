@@ -1,0 +1,39 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-lock:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      lock_discussions_label: "Gotûbêjan kilît bikin" # Original: Lock discussions
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      locked_tooltip: "Girtî kirin" # Original: Locked
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      lock_button: "Qesr" # Original: Lock
+      unlock_button: "Vekirin" # Original: Unlock
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      discussion_locked_text: "{username} locked"
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      discussion_locked_text: "{username} locked the discussion."
+      discussion_unlocked_text: "{username} unlocked the discussion."
+
+    # These translations are used in the Settings page.
+    settings:
+      notify_discussion_locked_label: "Kesek nîqaşek ku min dest pê kir kilît dike" # Original: Someone locks a discussion I started

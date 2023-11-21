@@ -1,0 +1,65 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-best-answer:
+  admin:
+    permissions:
+      best_answer: "Bersiva Baştirîn Hilbijêre (Gotûbêja xwe)" # Original: Select Best Answer (own Discussion)
+      best_answer_not_own_discussion: "Bersiva Baştirîn Hilbijêre (Ne Nîqaşa xwe)" # Original: Select Best Answer (not own Discussion)
+    settings:
+      label:
+        general: "Giştî" # Original: General
+        reminders: "Reminders" # Original: Reminders
+        advanced: "Pêşveçû" # Original: Advanced
+        reminders_notice: "Ji bo ku bîranîn bi rêkûpêk bixebite, divê hûn nexşerêya Flarum rast saz bikin." # Original: For reminders to function correctly, you must have set up the Flarum scheduler correctly.
+      allow_select_own_post: "Destûrê bide bikarhêner ku postên xwe hilbijêrin" # Original: Allow users to select their own posts
+      select_best_answer_reminder_days: "Bikarhêneran bînin bîra xwe ku piştî X rojan bersivek çêtirîn hilbijêrin" # Original: Remind users to select a best answer after X days
+      schedule_on_one_server: Use 'onOneServer()' directive for the task scheduler (requires Redis/Memcache)
+      schedule_stop_overnight: "Nehêlin ku nexşerêya bîranînê di demjimêrên nesosyal de bixebite (21 êvarî - 8 danê sibê dema serverê)" # Original: Prevent the reminder scheduler from running during unsocial hours (9pm - 8am server time)
+      schedule_log_output: "Hilbera plansazker li hilanîna têketinê zêde bikin" # Original: Append scheduler output to log storage
+      remind_tag_ids: To restrict reminders to particular tags, enter the tag ID's here (comma seperated)
+      use_alt_ui: "Plansaziya alternatîf bikar bînin (bişkojkên bersivên çêtirîn ên di binê postê de)" # Original: Use alternative layout (best answer buttons in post footer)
+  forum:
+    answered_badge: "Bersiv da" # Original: Answered
+    this_best_answer: "Bersiva çêtirîn hilbijêrin" # Original: Select Best Answer
+    remove_best_answer: "Bersiva herî baş hilbijêrî" # Original: Unselect Best Answer
+    best_answer_button: "Bersiva herî baş" # Original: Best Answer
+    best_answer_label: set by <a>{username}</a> {time_set}
+    errors:
+      mismatch: "Posta hilbijartî di vê nîqaşê de tune." # Original: Selected post does not exist in this discussion.
+
+    notification:
+      best_answer_in_discussion: "{username} set a best answer in this discussion"
+      content: "Ger pirsa we hatibe bersivandin ji kerema xwe Bersivek Baştirîn hilbijêrin" # Original: Please select a Best Answer if your question has been answered
+      awarded: Your post was set as the best answer by {username}
+
+      preferences:
+        awarded_best_answer: "Gava ku kesek posta min wekî bersivek çêtirîn destnîşan dike" # Original: When someone sets my post as a best answer
+        best_answer_in_discussion: "Dema ku di nîqaşek de ku ez beşdar bûm bersivek çêtirîn tête danîn" # Original: When a best answer is set in a discussion I participated in
+  email:
+    subject:
+      awarded: Your post was set as the best answer by {display_name}
+      ba-set: A best answer was set by {display_name}
+      select: "We bi rê ve bir ku bersiva pirsa xwe bigire?" # Original: Did you manage get your question answered?
+    body:
+      awarded: |
+        Hey {recipient_display_name},
+
+        Great job, {actor_display_name} just set your post as the best answer in the discussion: {discussion_title}. Thanks for helping out.
+
+        View it here: {discussion_url}
+      ba-set: |
+        Hey {recipient_display_name},
+
+        {actor_display_name} just set a best answer in the discussion: {discussion_title}, which you participated in.
+
+        Check it out: {discussion_url}
+      select: |
+        Hey {recipient_display_name},
+
+        Just checking in; by now you should have plenty of replies to your question: {discussion_title}. Hopefully one of them has helped you solve your problem.
+
+        If so, it would be really helpful for future members if you could set a best answer to your question. It'll help people with the same problem find the answer they need, and it's also a big thank you to the members who helped you out. They give their time voluntarily, so it's nice to let them know that they're doing well.
+
+        Visit the discussion here: {discussion_url}, and select the most appropriate post as the best answer.
+
+        Thanks!

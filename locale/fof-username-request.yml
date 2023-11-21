@@ -1,0 +1,90 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-username-request:
+  admin:
+    permissions:
+      moderate_requests: "Daxwazên guhertina navê bikarhêner/navdêr bipejirînin" # Original: Approve username/nickname change requests
+      request_nickname: "Daxwaza guhertina paşnavê" # Original: Request nickname change
+      request_username: "Daxwaza guhertina navê bikarhêner" # Original: Request username change
+  forum:
+    nickname_modals:
+      action:
+        title: => fof-username-request.ref.nickname_change_request
+        help_text: "Ji kerema xwe piştrast bikin ku ev guhertina paşnavê ku tê xwestin rêwerzên forumê dişopîne." # Original: Please make sure that this requested nickname change follows the forum guidelines.
+        decision_title: "Biryar" # Original: Decision
+        approval_label: "Destûrdan" # Original: Approve
+        rejected_label: "Refzkirin" # Original: Reject
+        submit_button: "Nermijîn" # Original: Submit
+        reason_title: "Sedema redkirina" # Original: Reason for Rejection
+        success: "Biryar hat şandin." # Original: Decision sent.
+        name: '{name} has requested to change their nickname to "{requestedName}"'
+      results:
+        title: "Daxwaza Guherîna Nasnav" # Original: Nickname Change Request
+        approved: "Daxwaza guhertina paşnavê te hat pejirandin" # Original: Your nickname change request has been approved
+        dismiss_button: => core.ref.okay
+        new_name: 'Your nickname has been successfully changed to: {name}'
+        rejected: "Daxwaza guhertina paşnavê te hat redkirin" # Original: Your nickname change request was rejected
+        reason: 'Reason for rejection: <i>"{reason}"</i>.'
+        resubmit: "Di vê demê de, heke hûn wusa bixwazin, hûn dikarin ji mîhengên hesabê xwe daxwaznameyek nû ya guhertina paşnavê bişînin." # Original: At this time you may resubmit a new nickname change request from your account settings if you so choose to.
+      request:
+        title: "Daxwaza Guhertina Nasnav" # Original: Request Nickname Change
+        current_request: You have already requested to change your nickname to "{name}". You can either update your request or delete it.
+        submit_button: "Serlêdan bişînin" # Original: Submit Request
+        delete_button: "Daxwaza jêbirin" # Original: Delete Request
+        confirmation_message: "Daxwaza guhertina paşnavê te hat şandin û li benda pejirandinê ye." # Original: Your nickname change request has been submitted and is pending approval.
+        dismiss_button: => core.ref.okay
+        deleted: "Daxwaza paşnav hat jêbirin." # Original: Nickname request deleted.
+
+    username_modals:
+      action:
+        title: => fof-username-request.ref.username_change_request
+        help_text: "Ji kerema xwe pê ewle bine ku ev guhertina navê bikarhêner a daxwazkirî rêwerzên forumê dişopîne." # Original: Please make sure that this requested username change follows the forum guidelines.
+        decision_title: "Biryar" # Original: Decision
+        approval_label: "Destûrdan" # Original: Approve
+        rejected_label: "Refzkirin" # Original: Reject
+        submit_button: "Nermijîn" # Original: Submit
+        reason_title: "Sedema redkirina" # Original: Reason for Rejection
+        success: "Biryar hat şandin." # Original: Decision sent.
+        name: '{name} has requested to change their username to "{requestedName}"'
+      results:
+        title: "Daxwaza Guhertina Navê Bikarhêner" # Original: Username Change Request
+        approved: "Daxwaza guhertina navê bikarhênerê te hat pejirandin" # Original: Your username change request has been approved
+        dismiss_button: => core.ref.okay
+        new_name: 'Your username has been successfully changed to: {name}'
+        rejected: "Daxwaza guhertina navê bikarhênerê te hat redkirin" # Original: Your username change request was rejected
+        reason: 'Reason for rejection: <i>"{reason}"</i>.'
+        resubmit: "Di vê demê de, heke hûn vê yekê hilbijêrin, hûn dikarin ji mîhengên hesabê xwe daxwazek nû ya guhertina navê bikarhêner ji nû ve bişînin." # Original: At this time you may resubmit a new username change request from your account settings if you so choose to.
+      request:
+        title: "Daxwaza Guhertina Navê Bikarhêner" # Original: Request Username Change
+        current_request: You have already requested to change your username to "{name}". You can either update your request or delete it.
+        submit_button: "Serlêdan bişînin" # Original: Submit Request
+        delete_button: "Daxwaza jêbirin" # Original: Delete Request
+        confirmation_message: "Daxwaza guhertina navê bikarhênerê te hat şandin û li benda pejirandinê ye." # Original: Your username change request has been submitted and is pending approval.
+        dismiss_button: => core.ref.okay
+        deleted: "Daxwaza navê bikarhêner hat jêbirin." # Original: Username request deleted.
+
+    # Pending Requests Dropdown and List
+    pending_requests:
+      empty_text: "Daxwazên guhertina navan nehat dîtin." # Original: No name change requests found.
+      nickname_item_text: "{name} requested a nickname change"
+      nickname_exerpt: "Requested nickname: {requestedName}"
+      tooltip: => fof-username-request.ref.name_change_requests
+      title: => fof-username-request.ref.name_change_requests
+      username_item_text: "{name} requested a username change"
+      username_exerpt: "Requested username: {requestedName}"
+
+    # Settings Page
+    settings:
+      nickname_request_button: "Nasnav biguherînin" # Original: Change Nickname
+      username_request_button: "Navê bikarhêner biguherînin" # Original: Change Username
+
+    user:
+      name_history_link: "Dîroka Navê" # Original: Name History
+
+  ref:
+    name_change_request: "Daxwaza Guhertina Navê" # Original: Name Change Request
+    name_change_requests: "Daxwazên Guhertina Navê" # Original: Name Change Requests
+    nickname_change_request: "Daxwaza Guherîna Nasnav" # Original: Nickname Change Request
+    nickname_change_requests: "Daxwazên Guherîna Nasnav" # Original: Nickname Change Requests
+    username_change_request: "Daxwaza Guhertina Navê Bikarhêner" # Original: Username Change Request
+    username_change_requests: "Daxwazên Guhertina Navê Bikarhêner" # Original: Username Change Requests

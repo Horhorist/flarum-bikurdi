@@ -1,0 +1,71 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+askvortsov-pwa:
+  admin:
+    nav:
+      pwa_button: "Pêşverû Web App" # Original: Progressive Web App
+      pwa_text: "Flarum mîheng bikin ku wekî Serlêdanek Web Pêşverû, ku li ser cîhazên mobîl tê saz kirin, bixebite." # Original: Configure Flarum to run as an Progressive Web App, installable on mobile devices.
+    pwa:
+      about:
+        description_text: You can set the description on the 'Basics' page in your admin dashboard.
+        long_name_text: "Navê serîlêdana webê ji bikarhênerê re tê xuyang kirin." # Original: The name of the web application displayed to the user.
+        heading: "Ji dor" # Original: About
+        short_name_text: "Navê serîlêdanê ji bikarhênerê re tê xuyang kirin heke cîhê têra navê dirêj tune be." # Original: The name of the application displayed to the user if there is not enough space for the long name.
+      colors:
+        heading: "Colors" # Original: Colors
+        background_color_text: This is used as a placeholder color for the splash screen that's displayed while your PWA is being loaded. It is not used when the app is actually loaded.
+        theme_color_text: This color is sometimes used by devices when displaying your app, for example on Android's task switcher, as the color that surround the site.
+      maintenance:
+        heading: "Lênerrînî" # Original: Maintenance
+        debug_label: "Moda çewtiyê? Ev ê agahdariya li ser agahdarkirina 'hilanînê/qeydkirinê' binivîse." # Original: Debug mode? This will log info about notifications to `storage/logs`.
+      other:
+        heading: "Yên din" # Original: Other
+        force_portrait_text: "Oryantasyona portait bi zorê?" # Original: Force portait orientation?
+      heading: "Veavakirina Pêşverû ya Web Appê" # Original: Progressive Web App Configuration
+      text: Configure your Flarum site to run as a progressive web app! Please note that this doesn't automatically put your site in the app store. Instead, this means that users have an 'Add to Homescreen' option for your site. We provide some status checks, however, the best way to test this is to try and install it (search on google for instructions on how to install progressive web apps). Also, please keep in mind that 'install this PWA' popups are controlled by browsers, and cannot be triggered by developers/admins/programs. I recommend including instructions for how to install a PWA in your site's documentation.
+      status_check_heading: "Status Check" # Original: Status Check
+      logo_heading: "Logo û Îkon" # Original: Logos and Icons
+      logo_text: |
+        You must upload at least one logo for your progressive web app to be installable. Please note that all logos must be square; if they are not, they will be resized and possibly stretched.
+
+        There are a number of size options available below. I would recommend trying to upload a logo to as many as you can: this supports more devices.
+
+        Please note that you can upload 1 large logo to inputs for smaller logos. For instance, you can upload a 1000px x 1000px logo to ALL the file inputs below. However, if you try to upload a 50px x 50px logo to the 512x512 input, it will be stretched a lot.
+
+      logo_size_text: Upload a logo which will be scaled to {size} pixels by {size} pixels size.
+      submit_button: "Save Settings" # Original: Save Settings
+      refreshed_message: "Veavakirina PWA bi serkeftî hate nûve kirin." # Original: PWA config refreshed successfully.
+    status:
+      config_no_https: The url in your config.php file isn't using HTTPS. HTTPS is required for Progressive Web Apps to work.
+      possible_https_disabled: Your site might not be running on HTTPS. Clearing your cache (admin dashboard page => tools button) might help. If it is, ignore this. If it isn't, keep in mind that HTTPS is required for Progressive Web Apps to work.
+      no_logo: "Ji bo ku sepana we bixebite, divê hûn bi kêmanî yek logo, bi mezinahiya herî kêm 196 px bar bikin." # Original: You must upload at least one logo, with a size of at least 196px for your app to work.
+      no_name: "Ji bo ku sepana xwe bixebite divê hûn navek tevahî peyda bikin." # Original: You must provide a full name for your app to work.
+      key_gen_failed: "Generation of keys needed for push notifications has failed. The full error message was: {error}"
+      suggest_gmp: The gmp PHP extension doesn't seem to be enabled on your server. It's not strictly necessary, but can improve performance and is recommended. Some shared hosts might not support it though.
+      success: "Pirsgirêkên Potansiyel nehat dîtin!" # Original: No Potential Issues Found!
+  forum:
+    alerts:
+      optin: "Te notifications push aktîf kiriye, lê vê cîhazê mîheng nekiriye." # Original: You have push notifications enabled, but have not configured this device.
+      optin_button: "Mîheng bikin" # Original: Configure
+    discussion_controls:
+      share_button: "Par" # Original: Share
+    post_controls:
+      share_button: "Par" # Original: Share
+      share_api:
+        title: "{username}'s reply to {title}'"
+    user_controls:
+      share_button: "Par" # Original: Share
+    settings:
+      push_header: "Lêqellibîn" # Original: Push
+      pwa_notifications:
+        access_default: "Ji ber qedexeyên gerokê, divê hûn ji bo wergirtina agahdariya push li ser vê cîhazê hilbijêrin." # Original: Due to browser restrictions, you must opt in to receive push notifications on this device.
+        access_default_button: "Vebijêrin" # Original: Opt In
+        access_denied: "Pêdivî ye ku hûn mîhengên geroka xwe biguhezînin da ku li ser vê cîhazê agahdariya push bistînin." # Original: You must adjust your browser settings to receive push notifications on this device.
+        access_denied_button: "Fêr bibe Çawa" # Original: Learn How
+        no_browser_support: "Ev gerok ji bo sepanên tevna pêşkeftî agahdariya push piştgirî nake." # Original: This browser does not support push notifications for progressive web apps.
+        no_browser_support_button: "Bêtir hîn bibin" # Original: Learn More
+
+  views:
+    offline:
+      header: "Çewtiya girêdana torê" # Original: Network connection error
+      text: "Ev sepan pêwendiya torê hewce dike; ew nikare offline were bikar anîn. Ji kerema xwe pêwendiya xwe kontrol bikin." # Original: This app requires a network connection; it cannot be used offline. Please check your connection.

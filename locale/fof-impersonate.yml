@@ -1,0 +1,20 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-impersonate:
+    admin:
+        permissions:
+            login: "Têkeve wekî bikarhênerên din" # Original: Login as other users
+        settings:
+            title: "FoF Bêkes" # Original: FoF Impersonate
+            require_reason: "Berî ku hûn nenaskirina bikarhênerek din bikin, sedemek hewce bike ku were navnîş kirin." # Original: Require a reason to be entered before proceeding to impersonate another user.
+            no_settings_available: "Tu mîhengên niha berdest in. Biceribînin fof/moderator-notes saz bikin" # Original: No settings are currently available. Try installing fof/moderator-notes
+
+    forum:
+        modal:
+            title: "Têkeve wekî bikarhênerek din" # Original: Login as another user
+            label: With great power comes great responsibility. By continuing, you will become {username} until you log out.
+            placeholder_optional: "(Bijarte) Sedema xwe ya guheztina vê bikarhênerê peyda bikin" # Original: (Optional) Provide your reason for switching to this user
+            placeholder_required: "Berî ku hûn bidomînin divê hûn sedema xwe ya ji bo guheztina vê bikarhênerê peyda bikin" # Original: You must provide your reason for switching to this user before proceeding
+            impersonate_username: Login as {username}
+        user_controls:
+            impersonate_button: "Têkeve wekî bikarhêner" # Original: Login as user

@@ -1,0 +1,59 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-doorman:
+  forum:
+    email:
+      subject: "Vexwendina Tevlîbûnê" # Original: Invite to Join
+      body: |
+        Hello,
+
+        You have been invited to sign up for {forum}.
+
+        When you are ready to create your account, simply click the following link and enter the code when signing up:
+
+        Url: {url}
+        Invite code: {code}
+
+        If you received this in error, please ignore this email.
+    sign_up:
+      invalid_doorkey: "Koda vexwendinê ya ku we têxe nederbasdar e." # Original: The invite code your entered is invalid.
+      doorkey_required: "Ji kerema xwe kodek vexwendinê binivîse." # Original: Please enter an invite code.
+      doorman_placeholder: "Koda vexwendinê" # Original: Invite Code
+      doorman_placeholder_optional: "Koda vexwendinê (vebijarkî)" # Original: Invite Code (optional)
+
+  admin:
+    modal:
+      title: "Kodên vexwendinê bişînin" # Original: Send Invite Codes
+      group: Sending invites for {group} group
+      help: "Lîsteya veqetandî ya komma, valahiyek, an cîhê girokê qebûl dike. E-nameyek kesane binivîsin an navnîşek bişopînin paşê cîhê bikirtînin da ku wê/wan lê zêde bikin." # Original: Accepts a comma, space, or comma-space seperated list. Type an individual email or paste a list then press space to add it/them.
+      placeholder: "E-nameyên li vir binivîse" # Original: Enter emails here
+      invalid_emails: "The following email(s) are invalid: {emails}"
+      max_use_conflict: "Hejmara e-nameyan ji hejmara herî zêde ya karanîna vê kodê derbas dibe." # Original: The number of emails exceeds the max number of uses for this code.
+      send: "Emailan bişînin" # Original: Send Emails
+      success: "E-name bi serkeftî şandin" # Original: Emails successfully sent
+    invalid_doorkey: "Koda vexwendinê ya ku we pêşkêşî nederbasdar e." # Original: The invite code you provided is invalid.
+    doorkey_required: "Divê hûn kodek vexwendinê peyda bikin" # Original: You must provide an Invite Code
+    nav:
+      desc: "Ji bo bikarhêneran kodên vexwendinê biafirînin ku xwe qeyd bikin û ji komekê re werin tayîn kirin" # Original: Create invite codes for users to sign up and be assigned to a group
+    page:
+      title: "Doorman" # Original: Doorman
+      doorkey:
+        used_times: "{remaining, plural, one {{remaining} Use left} other {{remaining} Uses left}}"
+        title: "Kodên vexwendin" # Original: Invite Codes
+        help:
+          key: "Mift: Koda ku bikarhêner dê dema qeydkirinê binivîse." # Original: Key: Code the user will type in when registering.
+          group: "Kom: Koma ku bikarhêner dê dema qeydkirinê lê zêde bibe." # Original: Group: The group the user will be added to when the register.
+          max: "Bikaranîna herî zêde: Hejmara herî zêde ya ku kod dikare were bikar anîn, ji bo karanîna bêsînor 0 tête danîn" # Original: Max Uses: The max number of times the code can be used, set to 0 for unlimited uses
+          activates: "Bikarhêner Çalak dike: Dema ku bikarhêner qeyd dike bixweber çalak dike." # Original: Activates User: Automatically activates the user when they register.
+        warning: "Ev koda vexwendinê jimara xwe ya herî zêde car hatiye bikar anîn." # Original: This invite code has been used its max number of times.
+        key: "Qûfle" # Original: Key
+        max_uses: "Max Uses" # Original: Max Uses
+        heading:
+          key: "Qûfle" # Original: Key
+          group: "Kom" # Original: Group
+          activate: "Bikarhêner çalak dike" # Original: Activates User
+          max_uses: "Max Uses" # Original: Max Uses
+        allow-public:
+          title: "Destûrê bide Sign Up giştî" # Original: Allow public Sign Up
+          switch-label: "Dema qeydkirinê koda vexwendinê vebijarkî bikin" # Original: Make invite code optional when signing up
+        

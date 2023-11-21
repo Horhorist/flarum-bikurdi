@@ -1,0 +1,18 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-recaptcha:
+  admin:
+    settings:
+      help_text: "Pêbaweriyên xwe yên Google reCAPTCHA <a>li vir</a> bistînin." # Original: Obtain your Google reCAPTCHA credentials <a>here</a>.
+      secret_key_label: "Key Key" # Original: Secret Key
+      site_key_label: "Key Malperê" # Original: Site Key
+      type_label: "Tîpa reCAPTCHA" # Original: reCAPTCHA Type
+    permissions:
+      post_without_captcha: "Mesaj û nîqaşan bêyî captcha biafirînin" # Original: Create posts and discussions without captcha
+  forum:
+    # This text is shown on the javascript error callback for reCAPTCHA.
+    # This is a generic error handler and we don't have access to the reason, so the message has to be vague.
+    error: "Di şandina reCAPTCHA de xeletiyek derket. Dubare bixebitin." # Original: There was an error submitting reCAPTCHA. Try again.
+
+validation:
+  recaptcha: "Verastkirina reCAPTCHA têk çû." # Original: reCAPTCHA validation failed.

@@ -1,0 +1,72 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+davwheat:
+  custom_sidenav_links:
+    admin:
+      settings_page:
+        display_options:
+          heading: "Mîhengên nîşan bide" # Original: Display settings
+
+          options:
+            position:
+              above-tags-link: Above "Tags" button
+              below-tags-link: Below "Tags" button
+
+          labels:
+            position: "Cihê girêdanê" # Original: Link location
+            top_spacer: "Spaserê jorîn nîşan bide" # Original: Show top spacer
+            bottom_spacer: "Spaserê jêrîn nîşan bide" # Original: Show bottom spacer
+
+        link_table:
+          heading: "Zencîreyên kesane bikin" # Original: Customise links
+
+          add_link_btn: "Girêdana nû lê zêde bike" # Original: Add new link
+
+          confirm_delete: Confirm deletion of link "{link}"
+          alert:
+            fix_errors: "Berî ku hûn guheztinên xwe tomar bikin, hûn hewce ne ku pirsgirêkên li jor rast bikin." # Original: You need to fix the issues above before saving your changes.
+
+          table:
+            header:
+              position: "Rewş" # Original: Position
+              icon: "Nîşana girêdanê" # Original: Link icon
+              text: "Nivîsara girêdanê" # Original: Link text
+              url: "Girêdana url" # Original: Link url
+              internal: "URL Flarum e?" # Original: Is Flarum URL?
+              delete: "Dûrxistin" # Original: Remove
+
+            placeholders:
+              icon: "fas fa-link" # Original: fas fa-link
+              text: "Malpera min a xweş" # Original: My cool site
+              url: "https://flarum.org" # Original: https://flarum.org
+
+            tooltips:
+              move_up: "Derketina jor" # Original: Move up
+              move_down: "Biçe jêr" # Original: Move down
+              icon_preview: "Pêşdîtina îkonê" # Original: Icon preview
+
+          save_btn:
+            dirty: "Save mîhengan" # Original: Save settings
+            saving: "Guhertin tomar kirin..." # Original: Saving changes...
+            saved: "Guhertinên tomarkirinê tune" # Original: No changes to save
+            fix_errors: "Berî tomarkirinê xeletiyan rast bikin" # Original: Fix errors before saving
+
+        new_link_modal:
+          title: "Girêdana nû lê zêde bike" # Original: Add new link
+
+          submit_btn:
+            add: "Girêdanê zêde bike" # Original: Add link
+            loading: "Zêdekirina girêdanê" # Original: Adding link
+            fix_url: "URL nederbasdar" # Original: Invalid URL
+            invalid_form: "Hemî qadan dagirin" # Original: Fill in all fields
+
+          labels:
+            icon: => davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon
+            text: => davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text
+            url: => davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url
+            internal: => davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal
+
+          placeholders:
+            icon: => davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon
+            text: => davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text
+            url: => davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url

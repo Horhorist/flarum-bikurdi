@@ -1,0 +1,31 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+custom-header:
+  admin:
+    headerTitle: "Sernav Sernav" # Original: Header Title
+    headerTitle-help: "li vir hûn dikarin sernavê sereke ya sernivîsa xwe biguherînin" # Original: here u can change the main title of your header
+    headerTagline: "Header Slogan" # Original: Header Slogan
+    headerTagline-help: "Li vir hûn dikarin dirûşma xwe biguherînin" # Original: Here you can change your slogan
+    twitterIcon: "Girêdana Rûpelê Twitter" # Original: Link to Twitter Page
+    twitterIcon-help: "Li vir URLek derbasdar li rûpela xweya twitterê bixin" # Original: Paste here a valid URL to your twitter page
+    facebookIcon: "Girêdana rûpela xwe ya facebookê" # Original: Link to your facebook Page
+    facebookIcon-help: "Li vir URLek derbasdar li rûpela xweya facebookê bixin" # Original: Paste here a valid URL to your facebook page
+    youtubeIcon: "Girêdana Rûpelê xwe yê youtube" # Original: Link to your youtube Page
+    youtubeIcon-help: "Li vir URLek derbasdar li rûpela xweya youtubeê bixin" # Original: Paste here a valid URL to your youtube page
+    githubIcon: "Girêdana Rûpelê GitHub-a xwe" # Original: Link to your GitHub Page
+    githubIcon-help: "Li vir URL-ya derbasdar li rûpela xweya GitHub bixin" # Original: Paste here a valid URL to your GitHub page
+    button-text: "Nivîsa Bişkojka Çep" # Original: Left Button Text
+    button-text-help: "Nivîsara bişkoka xweya çepê li vir bixin" # Original: Put here the text for your left button
+    button2-text: "Nivîsara Bişkojka Rastê" # Original: Right Button Text
+    button2-text-help: "Nivîsa ji bo bişkoka xweya rastê li vir bixin" # Original: Put here the text for your right button
+    link-button-one: "Girêdana ji bo Bişkojka Çep" # Original: Link for Left Button
+    link-button-one-help: "Ji bo bişkoka çepê URLek derbasdar bixin vir" # Original: Put a valid URL here for the left button
+    link-button-two: "Girêdana ji bo Bişkojka Rast" # Original: Link for Right Button
+    link-button-two-help: "Ji bo bişkoka Rastê URLek derbasdar li vir bixin" # Original: Put a valid URL here for the Right button
+  forum:
+    login: "Login" # Original: Login
+    signup: "Tomar kirin" # Original: Signup
+    twitter: "Li ser Twitterê me bişopînin" # Original: Follow us on Twitter
+    facebook: "Me li ser Facebookê bişopînin" # Original: Follow us on Facebook
+    youtube: "Me li ser Youtube bişopînin" # Original: Follow us on Youtube
+    github: "Rûpelê GitHub" # Original: GitHub Page

@@ -1,0 +1,6 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-default-group:
+  admin:
+    settings:
+      info: "Li jêr hûn dikarin komê hilbijêrin ku bikarhênerek gava ku hesabê wî were aktîfkirin destnîşan bike." # Original: Below you can select the group to assign a user when their account is activated.

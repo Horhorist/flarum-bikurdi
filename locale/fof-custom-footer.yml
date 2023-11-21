@@ -1,0 +1,9 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-custom-footer:
+  admin:
+    settings:
+      css: "CSS" # Original: CSS
+      height: "Bilindahiya pêlavê (px)" # Original: Height of Footer (px)
+      js: "JS" # Original: JS
+      text: "Nivîsar ji bo Footer" # Original: Text for Footer

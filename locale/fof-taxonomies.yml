@@ -1,0 +1,125 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-taxonomies:
+    admin:
+        menu:
+            title: "Taxonomies" # Original: Taxonomies
+            description: "Taksonomî û şertên xwerû biafirînin." # Original: Create custom taxonomies and terms.
+        page:
+            title: "Taxonomies" # Original: Taxonomies
+            create:
+                taxonomy: "Taksonomî ava bikin" # Original: Create taxonomy
+                term: "Termê çêbikin" # Original: Create term
+            reset-term-order: "Lîsteya şertan bi rêza alfabetîk vegerîne" # Original: Reset terms list to alphabetical order
+        edit-taxonomy:
+            title:
+                new: "Taxonomy ava bikin" # Original: Create Taxonomy
+                edit: "Edit Taxonomy" # Original: Edit Taxonomy
+            field:
+                type: "Awa" # Original: Type
+                typeDescription: >
+                    Taxonomies can be used on multiple Flarum resources.
+                    The type cannot be changed after creation.
+                    You can use identical names and slugs for taxonomies of different types.
+                name: => fof-taxonomies.ref.field.name
+                slug: => fof-taxonomies.ref.field.slug
+                description: => fof-taxonomies.ref.field.description
+                color: => fof-taxonomies.ref.field.color
+                icon: => fof-taxonomies.ref.field.icon
+                iconDescription: => fof-taxonomies.ref.field.iconDescription
+                showLabel: "Nîşana taksonomiyê bi hev re bi termê nîşan bide" # Original: Show taxonomy label together with term
+                showFilter: "Parzûnê li ser rûpelê malê nîşan bide" # Original: Show filter on homepage
+                allowCustomValues: "Destûrê bide nirxên xwerû" # Original: Allow custom values
+                customValueValidation: "Validation ji bo nirxên xwerû" # Original: Validation for custom values
+                customValueSlugger: "Slugger ji bo nirxên xwerû" # Original: Slugger for custom values
+                customValueSluggerDescription: >
+                    Choose how you want the slug generated.
+                    If a slug already exists, a numeric prefix will automatically be appended.
+                    For the Transliterator option, you need to install and configure that other extension in advance.
+                countRequired: "Hejmara şertên pêwîst" # Original: Required number of terms
+                countRequiredDescription: >
+                    Enter the minimum and maximum number of terms from that taxonomies that may be applied to a discussion.
+                rangeSeparatorText: "ber" # Original: to
+            delete: => fof-taxonomies.ref.delete
+            deleteConfirmation: >
+                Do you really want to delete the taxonomy {name}?
+                All terms under that taxonomy will be deleted.
+                Discussions using the taxonomy will NOT be deleted.
+            submit:
+                new: => fof-taxonomies.ref.submit.new
+                edit: => fof-taxonomies.ref.submit.edit
+            type-options:
+                discussions: "Nîqaş" # Original: Discussions
+                users: "Bikarhêner" # Original: Users
+            validation-options:
+                default: "Her nirxa nivîsê" # Original: Any text value
+                alpha_num: "Nirxên alpha-hejmar" # Original: Alpha-numerical values
+                alpha_dash: "Nirxên alpha-hejmarî û daçek / binî" # Original: Alpha-numerical values and dashes/underscores
+                regex: "îfadeya bi rêkûpêk" # Original: Regular expression
+            slugger-options:
+                random: "Nasnameya Random" # Original: Random identifier
+                alpha_dash: "ASCII alfa-hejmar slugger" # Original: ASCII alpha-numerical slugger
+                transliterator: "Berfirehkirina FoF Transliterator bikar bînin" # Original: Use FoF Transliterator extension
+        edit-term:
+            title:
+                new: "Termê çêbikin" # Original: Create Term
+                edit: "Edit Term" # Original: Edit Term
+            field:
+                name: => fof-taxonomies.ref.field.name
+                slug: => fof-taxonomies.ref.field.slug
+                description: => fof-taxonomies.ref.field.description
+                color: => fof-taxonomies.ref.field.color
+                icon: => fof-taxonomies.ref.field.icon
+                iconDescription: => fof-taxonomies.ref.field.iconDescription
+            delete: => fof-taxonomies.ref.delete
+            deleteConfirmation: >
+                Do you really want to delete the term {name}?
+                Discussions using the term will NOT be deleted.
+            submit:
+                new: => fof-taxonomies.ref.submit.new
+                edit: => fof-taxonomies.ref.submit.edit
+        permissions:
+            heading: "Taxonomies" # Original: Taxonomies
+            seeOwnDiscussion: "Li ser nîqaşên xwe taksonomiyan bibînin" # Original: See taxonomies on own discussions
+            seeAnyDiscussion: "Li ser hemî nîqaşan taksonomiyan bibînin" # Original: See taxonomies on all discussions
+            editOwnDiscussion: "Li ser nîqaşên xwe taksonomiyan biguherînin" # Original: Edit taxonomies on own discussions
+            editAnyDiscussion: "Li ser her nîqaşê taksonomiyan biguherînin" # Original: Edit taxonomies on any discussion
+            seeOwnUser: "Li ser bikarhênerê xwe taksonomî bibînin" # Original: See taxonomies on own user
+            seeAnyUser: "Li ser her bikarhênerek taksonomiyan bibînin" # Original: See taxonomies on any user
+            editOwnUser: "Li ser bikarhênerê xwe taksonomî biguherînin" # Original: Edit taxonomies on own user
+            editAnyUser: "Li ser her bikarhênerek taksonomiyan biguherînin" # Original: Edit taxonomies on any user
+            ownDisabledEveryone: "Endamên neçalakkirî û rawestandî" # Original: Non-activated and suspended members
+            ownDisabledMembers: "Endamên aktîfkirî" # Original: Activated members
+
+    forum:
+        composer:
+            choose: Choose {taxonomy}
+
+        modal:
+            title:
+                new: Choose {taxonomy} for your discussion
+                edit: Edit {taxonomy} for {title}
+            placeholder: Choose a term...|Choose {remaining} terms...
+            placeholderOptional: "Helbijartin..." # Original: Choose...
+            custom: Use {value}
+            submit: "OK" # Original: OK
+
+        discussion:
+            edit: Edit {taxonomy}
+
+        user:
+            nav: "Taxonomies" # Original: Taxonomies
+            edit: Edit {taxonomy}
+
+    ref:
+        field:
+            name: "Nav" # Original: Name
+            slug: "Şeytanok" # Original: Slug
+            description: "Terîf" # Original: Description
+            color: "Reng" # Original: Color
+            icon: "Icon" # Original: Icon
+            iconDescription: "Navê her çîna îkonê ya <a>FontAwesome</a> binivîse, <em>tevî</em> pêşgira <code>fas fa-</code>." # Original: Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.
+        delete: "Jêbirin" # Original: Delete
+        submit:
+            new: "Xûliqandin" # Original: Create
+            edit: "Rizgarkirin" # Original: Save

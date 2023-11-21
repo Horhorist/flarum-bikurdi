@@ -1,0 +1,14 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-user-bio:
+    admin:
+        permission:
+            view: "Biyo bibînin" # Original: View bio
+            editOwn: "Biyo xwe biguherîne" # Original: Edit own bio
+            editAny: "Her biyo biguherîne" # Original: Edit any bio
+        setting:
+            bioLimit: "Sînorê karaktera Bio" # Original: Bio character limit
+
+    forum:
+        userbioPlaceholder: "Li ser xwe tiştek binivîsin" # Original: Write something about yourself
+        userbioPlaceholderOtherUser: Write a bio for {username}

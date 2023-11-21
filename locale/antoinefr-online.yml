@@ -1,0 +1,11 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+antoinefr-online:
+  forum:
+    title: "Kî serhêl e?" # Original: Who is online?
+    andmore: "and {more} more..."
+    online_users: "{more, plural, one {# user is online} other {# users are online}}"
+  admin:
+    settings:
+      displaymax: "Hejmara endamên xuyang kirin" # Original: Number of members displayed
+      titleoflist: "Sernavê ku li jorê navnîşê were xuyang kirin" # Original: Title to be displayed above the list

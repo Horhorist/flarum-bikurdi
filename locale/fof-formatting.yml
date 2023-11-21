@@ -1,0 +1,12 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-formatting:
+  admin:
+    plugins:
+      Autoimage: "URL-ên wêneyan bi wêneyên rastîn veguherînin" # Original: Convert image URLs into actual images
+      Autovideo: "URLên vîdyoyê veguherînin vîdyoyên ku têne lîstin" # Original: Convert video URLs into playable videos
+      FancyPants: "Tîpografiya xweşik bikar bînin" # Original: Use fancy typography
+      HTMLEntities: "Saziyên HTML-ê bikar bînin" # Original: Use HTML entities
+      MediaEmbed: "Naveroka ji malperên destûrkirî bixin" # Original: Embed content from allowed sites
+      PipeTables: "maseyên ASCII-style" # Original: ASCII-style tables
+      TaskLists: "Lîsteyên peywirên bîhnxweş ên GitHub/GitLab" # Original: GitHub/GitLab flavored task lists

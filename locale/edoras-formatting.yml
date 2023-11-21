@@ -1,0 +1,5 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+edoras-formatting:
+  spoiler:
+    defaultValue: "Read More" # Original: Read More

@@ -1,0 +1,71 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+askvortsov-moderator-warnings:
+  admin:
+    permissions:
+      manage_warnings: "Hişyariyên moderatorê çêbikin û jêbirin" # Original: Create and remove moderator warnings
+      view_warnings: "Hişyariyên moderatorê bibînin" # Original: View moderator warnings
+      delete_warnings: "Hişyariyên moderatorê bi domdarî jêbirin" # Original: Permanently delete moderator warnings
+  emails:
+    post_warned:
+      subject: "{warner_display_name} warned you with {strikes, plural, one {# strike} other {# strikes}} in {discussion_title}"
+      body: |
+        Hey {warnee_display_name}!
+
+        {warner_display_name} warned you with {strikes, plural, one {# strike} other {# strikes}} in {discussion_title}
+
+        The following reason was given:
+
+        ---
+
+        {public_comment}
+    user_warned:
+      subject: "{warner_display_name} warned you with {strikes, plural, one {# strike} other {# strikes}}"
+      body: |
+        Hey {warnee_display_name}!
+
+        {warner_display_name} warned you with {strikes, plural, one {# strike} other {# strikes}}
+
+        The following reason was given:
+
+        ---
+
+        {public_comment}
+  forum:
+    notifications:
+      warning_text: '{strikes, plural, one {You were warned with # strike by {mod_username}} other {You were warned with # strikes by {mod_username}}}'
+      warning_no_strikes_text: You were warned by {mod_username} (no strikes)
+    post:
+      warning: '{strikes, plural, one {Warned with # strike by {mod_username}} other {Warned with # strikes by {mod_username}}}'
+      warning_no_strikes: Warned with no strikes by {mod_username}
+    post_controls:
+      warning_button: "Bikarhêner hişyar bike" # Original: Warn User
+    user:
+      warnings: "Hişyariyên Moderator" # Original: Moderator Warnings
+    settings:
+      warning_notification_label: "Moderatorek min hişyar dike" # Original: A moderator warns me
+    validation:
+      public_comment_required: "Hûn herî zêde şîroveyek gelemperî pêşkêş dikin." # Original: You most provide a public comment.
+      invalid_strike_count: "Divê hejmara lêdanan di navbera 0 û 5an de be." # Original: The number of strikes must be an integer between 0 and 5.
+    warning_controls:
+      delete_button: "Dûrxistin" # Original: Remove
+      restore_button: "Nûvdekirin" # Original: Restore
+      delete_forever_button: "Bi domdarî jêbirin" # Original: Permanently Delete
+    warning_list:
+      add_button: "Hişyariya Nû" # Original: New Warning
+      no_warnings: "Wusa dixuye ku li vir tu hişyarî tune." # Original: It looks like there are no warnings here.
+      warnings: "{strikes, plural, one {Moderator Warnings: # Strike Received} other {Moderator Warnings: # Strikes Received}}"
+      warnings_no_strikes: "Hişyarîyên Moderatorê: No Strikes Received" # Original: Moderator Warnings: No Strikes Received
+    warning_list_item:
+      list_item_heading: '{strikes, plural, one {<strong>#</strong> strike, {time}} other {<strong>#</strong> strikes, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {<strong>#</strong> strike, {time} <strong>(removed)</strong>} other {<strong>#</strong> strikes, {time} <strong>(removed)</strong>}}'
+      public_comment: "Gazî" # Original: Warning
+      private_comment: "Moderator-Comments Visible" # Original: Moderator-Visible Comments
+      linked_post: "Post Girêdayî" # Original: Linked Post
+    warning_modal:
+      confirmation_message: "Hişyariya we xilas bû. Dibe ku hûn hewce ne ku rûpelê nûve bikin da ku wê bibînin." # Original: Your warning has been saved. You may need to refresh the page to see it.
+      heading: Warn <strong>{username}</strong>
+      strikes_heading: "Divê çend grev werin sepandin?" # Original: How many strikes should be applied?
+      public_comment_heading: Why is <strong>{username}</strong> receiving these warnings? These comments will be visible to the user and other moderators.
+      private_comment_heading: Why is <strong>{username}</strong> receiving these warnings? These comments will ONLY be visible to other moderators.
+      submit_button: "Hişyariyê hilînin" # Original: Save warning

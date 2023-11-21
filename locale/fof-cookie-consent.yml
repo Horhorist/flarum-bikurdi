@@ -1,0 +1,27 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-cookie-consent:
+  admin:
+    settings:
+      configuration_title: "Vebijêrkên Veavakirinê" # Original: Configuration Options
+      consentText: "Peyama naverokê" # Original: Content Message
+      buttonText: "Nivîsara Bişkojkê Bişkîne" # Original: Dismiss Button Text
+      configuration_button_title: "Bişkojka Bêhtir Fêr bibe" # Original: Learn More Button
+      learnMoreLinkText: "Nivîstok" # Original: Text
+      learnMoreLinkUrl: "Girêk" # Original: Link
+
+      theme_title: "Vebijêrkên Mijarê" # Original: Theme Options
+      ccTheme: "Mijad" # Original: Theme
+      theme_popup_title: "Rengên popupê" # Original: Popup Colors
+      backgroundColor: "Paşî" # Original: Background
+      textColor: "Nivîstok" # Original: Text
+      theme_dismiss_title: "Rengên Bişkojê Bişkînin" # Original: Dismiss Button Colors
+      buttonBackgroundColor: "Paşî" # Original: Background
+      buttonTextColor: "Nivîstok" # Original: Text
+
+      themes:
+        blocky: "Blocky" # Original: Blocky
+        edgeless: "Edgeless" # Original: Edgeless
+        classic: "Classic" # Original: Classic
+        custom: "Hûnbunî" # Original: Custom
+        no_css: "CSS tune" # Original: No CSS

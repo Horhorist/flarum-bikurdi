@@ -1,0 +1,21 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+core:
+  forum:
+    index_sort:
+      popular_button: "Demane" # Original: Popular
+      unpopular_button: "Unpopular" # Original: Unpopular
+
+flarumite-simple-discussion-views:
+  forum:
+    modal_resetviews:
+      title: "Hejmara dîtina nîqaşê vegerîne" # Original: Reset discussion view count
+      submit: "Nermijîn" # Original: Submit
+      label: "Set ji bo dîtina count" # Original: Set to view count
+    discussion_controls:
+      resetviews_button: "Hejmara dîtinê saz bike" # Original: Set view count
+  admin:
+      permissions:
+          reset_views_label: "Set views nîqaşê" # Original: Set discussion views
+      settings:
+        ignore_crawlers: "Serdanên crawler paşguh nekin" # Original: Ignore crawler visits

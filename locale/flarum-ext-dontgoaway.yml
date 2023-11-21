@@ -1,0 +1,24 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-dontgoaway:
+  admin:
+    modtitle: "Sernav Modal" # Original: Modal Title
+    modtitledesc: "Sernavê popupê xweş bikin" # Original: Customize the title of popup
+    modtext: "Nivîsa Modal" # Original: Modal Text
+    modtextdesc: "Li vir hûn dikarin nivîsa popupa xweya modal xweş bikin." # Original: Here u can customize the text of your modal popup.
+    urltext: "Url ya wêneya xweya xwerû" # Original: Url of your custom image
+    urltextdesc: "URL-ya wêneya xweya xwerû li vir bixin" # Original: Paste here the url of your custom image
+    widthtext: "Firehiya Wêne" # Original: Image Width
+    widthdesc: "Firehiya wêneya xwe destnîşan bike (mînak 450)" # Original: Set the width of your image (e.g. 450)
+    heightext: "Bilindahiya Wêne" # Original: Image Height
+    heightdesc: "Bilindahiya wêneya xwe destnîşan bikin (mînak 450)" # Original: Set the height of your image (e.g. 450)
+    altext: "Alt Attribute ji bo wêneyê" # Original: Alt Attribute for the image
+    altdesc: Set the "alt" attributes for your image
+    btn: "Customize Button. Mînaka hevoksaziyê di cîhgiran de" # Original: Customize Button. Syntax example in the placeholder
+    btndesc: "hûn dikarin îkon û nivîsa xweya fontawesome ji bo bişkojkê saz bikin" # Original: u can setup your fontawesome icon and text for the button
+    enableExtLink: "Li ser zencîreya derve Popup çalak bike" # Original: Enable Popup on external link
+  forum:
+    extlinktitle: "Girêdana Derveyî" # Original: External Link
+    extlinktext: "Hûn bi tikandina li ser girêdanek derveyî ji malperê derdikevin" # Original: U are leaving the site by clicking on an external link
+    confbutton: "Berdewamkirin" # Original: Continue
+    cancelbutton: "Li vir bimîne!" # Original: Stay here!

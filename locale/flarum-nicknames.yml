@@ -1,0 +1,26 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-nicknames:
+  admin:
+    permissions:
+      edit_own_nickname_label: "Nasnavê xwe biguherîne" # Original: Edit own nickname
+    settings:
+      max_label: "Dirêjahiya paşnavê herî zêde" # Original: Maximum nickname length
+      min_label: "Dirêjahiya paşnavê hindiktirîn" # Original: Minimum nickname length
+      regex_label: "Ji bo pejirandinê îfadeya birêkûpêk" # Original: Regular expression for validation
+      unique_label: "Nasnavên yekta hewce dikin?" # Original: Require unique nicknames?
+    wrong_driver: You must select "nickname" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect.
+  api:
+    invalid_nickname_message: "Ev paşnav nederbasdar e. Ji kerema xwe ji bo bêtir agahdarî li ser qaîdeyên nickname bi rêvebirê forumê xwe re têkilî daynin." # Original: This nickname is invalid. Please contact your forum administrator for more information on nickname rules.
+  forum:
+    change_nickname:
+      submit_button: => core.ref.save_changes
+      title: "=> flarum-nicknames.ref.change_nickname" # Original:  => flarum-nicknames.ref.change_nickname
+    edit_user:
+      nicknames_heading: => flarum-nicknames.ref.change_nickname
+      nicknames_text: "Nickname" # Original: Nickname
+    settings:
+      change_nickname_button: => flarum-nicknames.ref.change_nickname
+
+  ref:
+    change_nickname: "Nasnav biguherînin" # Original: Change Nickname

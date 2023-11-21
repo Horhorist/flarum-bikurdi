@@ -1,0 +1,23 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-prevent-necrobumping:
+  forum:
+    composer:
+      warning:
+        title: This discussion is more than <b>{time}</b> old.
+        description: "Bi îhtimaleke mezin ew ne hewceyî nîqaşek din e û bi vî rengî lêxistina wê ji ti armancê re xizmet nake." # Original: It is very likely that it does not need any further discussion and thus bumping it serves no purpose.
+        checkbox_label: "Ez dizanim ku ev nîqaş pir kevn e lê dîsa jî dixwazim bersivê bidim." # Original: I am aware that this discussion is rather old but would still like to reply.
+        error: "Ev nîqaş ji bo bersivdayînê pir kevn e." # Original: This discussion is too old to reply to.
+
+  admin:
+    settings:
+      days_label: "Days" # Original: Days
+      days_help: "Nîqaşek dê wekî kevn were nîşankirin dema ku çend rojên diyarkirî ji posta paşîn a li ser wê nîqaşê hatî şandin derbas bibin. <code>0</code> bikar bînin da ku wê ji hêla xwerû ve neçalak bikin." # Original: A discussion will be marked as old when the amount of days specified has passed since the last post on that discussion was posted. Use <code>0</code> to disable it by default.
+
+      message_title_label: "Sernavê Mesajê Custom" # Original: Custom Message Title
+      message_title_help: 'Use <code>[time]</code> for the time text, e.g. "14 days".'
+      message_description_label: "Daxuyaniya Peyama Custom" # Original: Custom Message Description
+      message_agreement_label: "Peymana Peyama Xweser (Qutika kontrolê)" # Original: Custom Message Agreement (Checkbox)
+
+      tags_title: "Tags" # Original: Tags
+      tags_help: "Ji bo tagek taybetî rojên gerdûnî derbas bikin. Vala tê wateya nirxa xwerû bikar bînin. Ger nîqaşek gelek etîketên bi nirxên rojê yên cihêreng hebin, ew ê rojên herî piçûk ên mîhengkirî bikar bîne." # Original: Override the global days for a specific tag. Empty means use default value. If a discussion has multiple tags with different day values, it will use the smallest amount of days configured.

@@ -1,0 +1,18 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-welcomebox:
+  forum:
+    wback: "Duabre bixêr bên," # Original: Welcome back,
+    npost: => core.ref.posts
+    discussion: => core.ref.discussions
+    welcomeguest: "Bi xêr hatî Mêvan" # Original: Welcome Guest
+    notregistered: "Tu niha li vê forumê qeydkirî ne." # Original: You are currently not registered to this forum.
+    goToProfile: "Tengal" # Original: Profile
+    SettingsLink: "Settings" # Original: Settings
+    tooltipProfile: "Tengal" # Original: Profile
+    tooltipMentions: "Behsa dike" # Original: Mentions
+    tooltipDisclist: "Lîsteya Gotûbêja Min" # Original: My Discussion List
+  admin:
+    enablepostbox: "Ji bo mêvan Qutiya Bi xêr hatî çalak bike" # Original: Enable Welcome Box for guest
+    img: "URL-ya wêneyê (Qutiya Mêvan)" # Original: Image url (Guest Box)
+    img-help: "url-ya wêneyê ji bo qutiya mêvan li vir bixin" # Original: put here the url of image for guest box

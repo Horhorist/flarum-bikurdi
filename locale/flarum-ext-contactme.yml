@@ -1,0 +1,42 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-contactme:
+  settings:
+    emaillabel: "E-nameya ku dê forma pêwendiyê jê re were şandin" # Original: Email to which the contact form will be sent
+  admin:
+    settings:
+      emaillabel: "E-nameya ku dê forma pêwendiyê jê re were şandin" # Original: Email to which the contact form will be sent
+  forum:
+    title: "Paqij bûn" # Original: Contact Us
+    messagesent: "Peyam şandin!" # Original: Message Sent!
+    plsregister: "Ji kerema xwe qeyd bikin an têkevin" # Original: Please register or login
+    tocontinue: "ji bo berdewamkirina vê forma têkiliyê" # Original: to continue with this contact form
+    backsoon: "em ê di demek nêzîk de li we vegerin" # Original: we will get back to you shortly
+    notloggedin: "Ji kerema xwe têkevinê da ku forma têkiliyê bikar bînin" # Original: Please login to use the contact form
+    placeholderName: "Navê xwe li vir binivîsin" # Original: Write your name here
+    emailfield: "Navnîşana e-nameya xwe binivîsin" # Original: Write your email address
+    pageTitle: ".Paqij bûn" # Original: .Contact Us
+    subject: "Peyam ji forma têkiliyê" # Original: Message from the contact form
+    sendForm: "Peyam bişîne" # Original: Send Message
+    textAreaField: "Peyama xwe li vir binivîse" # Original: Write your message here
+    pText: |
+      <p>By filling out this contact form you can send us commercial communications, partnerships or simply any type of question, which will be answered within a maximum of 7 days..</p>
+      <p><strong>TREATMENT OF PERSONAL DATA</strong></p>
+      <p>(Privacy policy art. 13 del d.lgs. 196/2003)</p>
+      <p>We inform you that the data you will provide to the operator of this site when filling in the "contact form" (also called form mail) of the site itself, will be treated in compliance with the provisions of Legislative Decree 196/2003, Code in subject of personal data protection.
+         The contact form made available on the site has the sole purpose of allowing site visitors to contact, if they so wish, the site manager, by sending an email to the manager via the aforementioned form.
+         This information concerns the personal data sent by the visitor user when filling out the contact form.</p>
+      <p>Please follow this rules:</p>
+      <li>Do not abuse the contact form for requests that can be made in the forum</li>
+      <li>Don't send the same email multiple times</li>
+  email:
+    contact:
+      subject: "Têkiliya nû bi riya formê" # Original: New contact via form
+      body: |
+        Hello!
+
+        You have received a new contact form submission from {username} (email: {email})
+
+        Their message is:
+
+        {message}

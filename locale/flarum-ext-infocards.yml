@@ -1,0 +1,25 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-infocards:
+  forum:
+    geninfo: "Agahiyên Giştî" # Original: General Info
+    welcome_back: "Duabre bixêr bên," # Original: Welcome Back,
+    forumstats: "Statîstîkên Forumê" # Original: Forum Stats
+    totalpost: "Tevahiya Post" # Original: Total Post
+    totdisc: "Tevahiya Gotûbêjan" # Original: Total Discussions
+    opthread: "Mijarên Vekirî" # Original: Opened Threads
+    viscounter: "Serdana Counter" # Original: Visit Counter
+    wasviewed: "Ev rûpel hate dîtin" # Original: This page was viewed
+    groups: "Komên we yên rastîn" # Original: Your actual Groups
+    times: "Times" # Original: Times
+    sunday: "Yekşem" # Original: Sunday
+    monday: "Duşem" # Original: Monday
+    tuesday: "Sêşem" # Original: Tuesday
+    wednesday: "Çarşem" # Original: Wednesday
+    thursday: "Pêncşem" # Original: Thursday
+    friday: "Roja Înê" # Original: Friday
+    saturday: "Şemî" # Original: Saturday
+  admin:
+    createapikey: "Api Key" # Original: Api Key
+    apikeyhelp: "Li ser https://countapi.xyz/ mifteyek api ya belaş biafirînin" # Original: Create a Free api key on https://countapi.xyz/
+

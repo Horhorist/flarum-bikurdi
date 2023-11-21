@@ -1,0 +1,34 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-discussion-language:
+  forum:
+    change_language:
+      edit_title: Editing Language for {title}
+      title: "Editing Language" # Original: Editing Language
+
+      submit_button: => core.ref.save_changes
+
+    composer_discussion:
+      choose_language_link: "Ziman" # Original: Language
+
+    discussion_controls:
+      change_language_button: "Set Ziman" # Original: Set Language
+
+    index_language:
+      any: "Her Ziman" # Original: Any Language
+
+  admin:
+    settings:
+      native_label: "Navên zimanên zikmakî bikar bînin" # Original: Use native language names
+      show_flag_label: "Alên welatan bi navên zimanan nîşan bidin" # Original: Show country flags with language names
+      composer_default_label: "Di berhevoka nîqaşê de cîhê heyî pêş-hilbijêre" # Original: Pre-select current locale in the discussion composer
+      locale_sort_label: "Ji bo parzûna nîqaşê ya xwerû zimanê naskirî bikar bînin" # Original: Use detected language for default discussion filter
+      show_any_lang_opt_label: Show the option to select "Any Language".
+
+    permissions:
+      allow_change_language_label: "Destûrê bide guherandina ziman" # Original: Allow language editing
+
+  api:
+    discussion:
+      validation_error: You must select your discussion's language.
+

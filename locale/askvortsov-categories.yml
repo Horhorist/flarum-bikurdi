@@ -1,0 +1,44 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+askvortsov-categories:
+  admin:
+    basics:
+      categories_label: "Kategorî" # Original: Categories
+    labels:
+      keep_tags_nav: "Girêdana rûpela nîşanan di kêleka navikê de bimîne?" # Original: Keep the tags page link in the nav sidebar?
+      child_bare_icon: "Îkonên zarokan tazî?" # Original: Bare child icons?
+      compact_mobile_mode: "Moda mobîl a kompakt" # Original: Compact mobile mode
+      full_page_desktop: "Sermaseya rûpela tevahî?" # Original: Full page desktop?
+      parent_remove_icon: "Ji bo nîşaneyên asta jorîn îkonan veşêrin?" # Original: Hide icons for top-level tags?
+      parent_remove_description: "Danasînên ji bo nîşaneyên asta jorîn veşêrin?" # Original: Hide descriptions for top-level tags?
+      parent_remove_stats: "Ji bo nîşaneyên asta jorîn statîstîkan veşêrin?" # Original: Hide stats for top-level tags?
+      parent_remove_last_discussion: "Nîqaşên herî dawî yên ji bo nîşaneyên asta jorîn veşêrin?" # Original: Hide most recent discussions for top-level tags?
+      small_forum_optimized: "Ji bo forumên piçûk çêtir bikin?" # Original: Optimize for small forums?
+    help:
+      child_bare_icon: "Ma divê îkonên li ser kategoriyên zarokan bêyî paşxaneyek dorhêl werin xuyang kirin?" # Original: Should icons on child categories be displayed without a circular background?
+      full_page_desktop: "Pêdivî ye ku menuya navbarê ya kêlekê li rêzek were hilweşandin (mîna li ser rûpela etîketên kevneşopî)? Ev ê di heman demê de widgetan (wek statîstîkên Forumê yên Hevalên Flarum) ji navbara rûpelê kategoriyan veşêre." # Original: Should the sidebar nav menu be collapsed to a row (like on the traditional tags page)? This will also hide widgets (such as Friends of Flarum Forum Statistics) from the categories page navbar.
+      small_forum_optimized: "Ev ê jimartinên nîqaş / postan rasttir bide, lê dê forumên navîn û mezin bi rengek berbiçav hêdî bike." # Original:  This will give more accurate discussion/post counts, but will slow medium and large forums dramatically.
+    headings:
+      nav: "Rêserbirinî" # Original: Navigation
+      layout: "Rêz" # Original: Layout
+      parent_display: "Nîşandana Kategoriya Dêûbav" # Original: Parent Category Display
+      child_display: "Display Kategoriya Zarokan" # Original: Child Category Display
+      performance: "Birêvebirinî" # Original: Performance
+    title: "Kategorî Mîhengên" # Original: Categories Settings
+
+  forum:
+    all_categories:
+      meta_description_text: "Hemû Kategorî" # Original: All Categories
+      meta_title_text: => askvortsov-categories.ref.categories
+    header:
+      back_to_categories_tooltip: "Vegere Kategoriyan" # Original: Back to Categories
+    index:
+      categories_link: => askvortsov-categories.ref.categories
+    stat-widgets:
+      discussion_label: "Nîqaş" # Original: Discussions
+      post_label: "Posts" # Original: Posts
+    last_discussion_widget:
+      no_discussions: "Nîqaş tune (Hê!)" # Original: No Discussions (Yet!)
+
+  ref:
+    categories: "Kategorî" # Original: Categories

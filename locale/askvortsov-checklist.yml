@@ -1,0 +1,9 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+askvortsov-checklist:
+  admin:
+    settings:
+      cross_out_completed_items: "Tiştên lîsteya kontrolê ya temamkirî xaç bikin?" # Original: Cross out completed checklist items?
+  lib:
+    composer:
+      checklist_tooltip: "Lîsteya kontrolê biguherînin" # Original: Toggle Checklist

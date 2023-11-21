@@ -1,0 +1,34 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-filter:
+    forum:
+        flagger_name: "Moderator Auto" # Original: Auto Moderator
+        flag_message: "Têlên astengkirî hene" # Original: Contained blocked strings
+    admin:
+        title: "Parzûn" # Original: Filter
+        help: "Nivîsar an peyvên ji bo parzûnê têkevin, bi komma + valahiyê têne veqetandin. Ger naveroka posta bikarhênerek rêzek heye ku hûn dixwazin fîlter bikin, ew ê ji bo pejirandinê were nîşankirin. Li dijî 133t berxwedan." # Original: Input text or words to filter, separated by comma + space. If the content of a user’s post contains a string you want to filter, it will be flagged for approval. Resistant against 133t.
+        help2: "Navbera di çend hûrdeman de ku tê de postên ji heman bikarhênerê di heman nîqaşê de dê bixweber werin yek kirin." # Original: Interval in minutes in which posts from the same user in the same discussion will be automatically merged.
+        email_help: "Bedena e-nameya alakirî. html an teksta sade qebûl dike." # Original: Body of flagged email. Accepts html or plaintext.
+        filter_label: "Strings ji bo Parzûna" # Original: Strings to filter
+        countLabel: "Sensor Tolorance" # Original: Censor Tolorance
+        cooldownLabel: "Merge Post Cooldown" # Original: Merge Post Cooldown
+        input:
+            placeholder: "Têlên ku bêne fîltrekirin" # Original: Strings to be filtered
+            filter_title: "Strings ji bo Parzûna" # Original: Strings to filter
+            email_label: "Mîhengên E-nameyê" # Original: Email Settings
+            switch: "" # Original:  
+              email: "Dema ku post tê fîltrekirin ji bikarhênerê e-nameyê re bişînin" # Original: Email user when post is filtered
+              merge: "Mesajên ducarî oto bi hev re bikin" # Original: Auto merge double posts
+            email_subject: "Mijar" # Original: Subject
+            email_body: "Beden" # Original: Body
+        nav:
+            text: "Parzûn" # Original: Filter
+            desc: "Mesajên bi peyvan fîlter bikin" # Original: Filter posts by words
+        email:
+            default_subject: "Di derbarê Posta Weya Dawî de" # Original: Regarding Your Recent Post
+            default_text: |
+                Thank you for posting! Unfortunately, your post was removed because it contained something we don't want to see on our forums.
+                
+                If you believe this was an error, you are in luck, each removed post is reviewed by our moderators. If they find that this was wrongfully removed, they will restore it.                
+                
+                Thank you for your understanding.

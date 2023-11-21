@@ -1,0 +1,5 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-email-checker:
+  error:
+    disposable_email_message: "Hûn nikarin e-nameyek yekcar bikar bînin." # Original: You may not use a disposable email.

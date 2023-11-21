@@ -1,0 +1,13 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+alongwy-elasticsearch:
+  admin:
+    settings:
+      title: "Elasticsearch" # Original: Elasticsearch
+      ESOptionsHeading: "Setting" # Original: Setting
+      host: "Mazûban" # Original: Host
+      hostHelp: "Elasticsearch Host" # Original: Elasticsearch Host
+      port: "Bender" # Original: Port
+      portHelp: "Elasticsearch Port" # Original: Elasticsearch Port
+      scheme: "Scheme" # Original: Scheme
+      schemeHelp: "Bernameya Elasticsearch (http/https)" # Original: Elasticsearch Scheme (http/https)

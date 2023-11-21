@@ -1,0 +1,118 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: => core.ref.color
+      delete_tag_button: "Tagê jêbirin" # Original: Delete Tag
+      delete_tag_confirmation: "Are you sure you want to delete this tag? The tag's discussions will NOT be deleted."
+      description_label: "Terîf" # Original: Description
+      hide_label: "Ji Hemî Nîqaşan veşêre" # Original: Hide from All Discussions
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: "Şeytanok" # Original: Slug
+      submit_button: => core.ref.save_changes
+      title: "Tag çêbikin" # Original: Create Tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: "Navnîşa etîketan bi rê ve bibin ku hûn bi wan re nîqaşan organîze bikin." # Original: Manage the list of tags available to organise discussions with.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: "Destûrê bide guherandina nîşanan" # Original: Allow tag editing
+      bypass_tag_counts_label: "Pêdiviyên tagê derbas bikin" # Original: Bypass tag requirements
+      restrict_by_tag_heading: "Ji hêla Tagê ve sînorkirin" # Original: Restrict by Tag
+      tag_discussions_label: "Nîqaşên tag" # Original: Tag discussions
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: "ber" # Original:  to 
+      required_primary_heading: "Hejmara Pêdivî ya Tagên Seretayî" # Original: Required Number of Primary Tags
+      required_primary_text: "Hejmara herî kêm û herî zêde ya tagên seretayî yên ku dikarin li ser nîqaşekê werin sepandin binivîsin." # Original: Enter the minimum and maximum number of primary tags that may be applied to a discussion.
+      required_secondary_heading: "Hejmara Pêdivî ya Tagên Duyemîn" # Original: Required Number of Secondary Tags
+      required_secondary_text: "Hejmara herî kêm û herî zêde ya tagên duyemîn ku dikarin li ser nîqaşekê werin sepandin binivîsin." # Original: Enter the minimum and maximum number of secondary tags that may be applied to a discussion.
+      title: "Settings Tag" # Original: Tag Settings
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Etîket ji bo kategorîzekirina nîqaşan têne bikar anîn. Etîketên seretayî mîna kategoriyên forumê yên kevneşopî ne: ew dikarin di hiyerarşiyek du-ast de werin rêz kirin. Etîketên duyemîn xwedan hiyerarşiyek an rêzik nînin, û ji bo kategorîzekirina mîkro bikêr in." # Original: Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization.
+      create_primary_tag_button: "Etîketa Seretayî biafirînin" # Original: Create Primary Tag
+      create_secondary_tag_button: "Etîketa Duyemîn biafirînin" # Original: Create Secondary Tag
+      primary_heading: "Etîketên Seretayî" # Original: Primary Tags
+      secondary_heading: "Tags Duyemîn" # Original: Secondary Tags
+      settings_heading: "Settings" # Original: Settings
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are displayed on the page that lists all tags.
+    all_tags:
+      meta_description_text: "Hemû Tags" # Original: All Tags
+      meta_title_text: => flarum-tags.ref.tags
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}"
+      choose_secondary_placeholder: "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}"
+      edit_title: "Edit Tags for {title}"
+      submit_button: => core.ref.okay
+      title: "Ji bo Gotûbêja xwe Etîketan hilbijêrin" # Original: Choose Tags for Your Discussion
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: "Etîketan hilbijêrin" # Original: Choose Tags
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: "Edit Tags" # Original: Edit Tags
+
+    header:
+      back_to_tags_tooltip: "Vegere Lîsteya Tag" # Original: Back to Tag List
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: "Zêde..." # Original: More...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: "Untagged" # Original: Untagged
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
+      added_tags_text: "{username} added the {tagsAdded}."
+      removed_tags_text: "{username} removed the {tagsRemoved}."
+      tags_text: "{count, plural, one {{tags} tag} other {{tags} tags}}"
+
+    # These translations are used when visiting a single tag's discussion list.
+    tag:
+      meta_description_text: "All discussions with the {tag} tag"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: "Jêbirin" # Original: Deleted
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    name: "Nav" # Original: Name
+    tags: "Tags" # Original: Tags

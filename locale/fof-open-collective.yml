@@ -1,0 +1,11 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-open-collective:
+  admin:
+    settings:
+      title: "FriendsOfFlarum Kolektîfa Vekirî" # Original: FriendsOfFlarum Open Collective
+      desc: "Mifteya API-ya xwe ji <a>https://opencollective.com/applications</a> bistînin." # Original: Obtain your API key from <a>https://opencollective.com/applications</a>.
+
+      api_key_label: "Mifteya API" # Original: API Key
+      slug_label: "Slug Kolektîf" # Original: Collective Slug
+      group_label: "Kom ji bo Assign" # Original: Group to Assign

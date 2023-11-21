@@ -1,0 +1,48 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-polls:
+  admin:
+    permissions:
+      view_results_without_voting: "Encamên bêyî dengdanê bibînin" # Original: View results without voting
+      start: "Anketek dest pê bikin" # Original: Start a poll
+      self_edit: "Destûrê bide bikarhêneran ku anketên xwe biguherînin" # Original: Allow users to edit their own polls
+      vote: "Li ser anketan deng bidin" # Original: Vote on polls
+      change_vote: "Deng biguhere" # Original: Change vote
+      moderate: "Biguherîne & rake anketan" # Original: Edit & remove polls
+
+  forum:
+    days_remaining: Poll ends {time}.
+    no_permission: You don't have permission to vote
+    poll_ended: "Ev anket bi dawî bû." # Original: This poll has ended.
+    public_poll: "Dengdêran bibînin" # Original: View voters
+
+    composer_discussion:
+      add_poll: "Anketê lê zêde bike" # Original: Add Poll
+      edit_poll: => fof-polls.forum.moderation.edit
+
+    modal:
+      add_title: "Anketek lê zêde bike" # Original: Add a Poll
+      add_option_label: "Vebijêrkek zêde bike" # Original: Add an Option
+      date_placeholder: "Dîroka bidawîbûna anketê (Bijarte)" # Original: Poll end date (Optional)
+      edit_title: "Biguherîne anketê" # Original: Edit Poll
+      include_question: "Divê hûn pirsek têxin nav xwe" # Original: You must include a question
+      max: "Hûn dikarin herî zêde 10 bersiv hebin" # Original: You can have a maximum of 10 answers
+      min: "Pêdivî ye ku hûn herî kêm 2 bersivan têxin nav xwe" # Original: You must include a minimum of 2 answers
+      no_voters: "Deng tune" # Original: No Votes
+      option_placeholder: "Bersiv" # Original: Answer
+      options_label: "Bersiv" # Original: Answers
+      public_poll_label: "Bihêlin ku mirov bibînin kê deng daye" # Original: Allow people to see who voted
+      question_placeholder: "Pirs" # Original: Question
+      submit: "Nermijîn" # Original: Submit
+
+    moderation:
+      delete: "Rake Poll" # Original: Remove Poll
+      delete_confirm: "Ma tu bi rastî dixwazî ​​vê anketê jê bibî?" # Original: Are you sure you want to delete this poll?
+      edit: "Biguherîne anketê" # Original: Edit Poll
+
+    tooltip:
+      badge: "Gelpisî" # Original: Poll
+      votes: "{count, plural, one {# vote} other {# votes}}"
+
+    votes_modal:
+      title: "Dengdêr" # Original: Voters

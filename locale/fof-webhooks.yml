@@ -1,0 +1,117 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-webhooks:
+  actions:
+    discussion:
+      started: "Started discussion `{1}`"
+      renamed:
+        title: "Renamed discussion `{1}`"
+        description: "New title: {1}"
+      hidden: "Hid discussion `{1}`"
+      restored: "Restored discussion `{1}`"
+      deleted: "Deleted discussion `{1}`"
+
+    group:
+      created: "Created `{1}` group"
+      renamed: "Renamed a group to `{1}`"
+      deleted: "Deleted `{1}` group"
+
+    post:
+      posted: "New post in `{1}`"
+      revised: "Edited post in `{1}`"
+      hidden: "Hid post in `{1}`"
+      restored: "Restored post in `{1}`"
+      deleted: "Deleted post in `{1}`"
+
+    user:
+      registered: "Bikarhênerek nû qeydkirî ye" # Original: New user registered
+      renamed:
+        title: "Changed username of `{1}`"
+        description: "New username: {1}"
+      deleted: "Deleted user `{1}`"
+
+  adapters:
+    errors:
+      404: "Webhook nehat dîtin" # Original: Webhook Not Found
+
+  admin:
+    errors:
+      service_not_found: The service '{service}' cannot be found.
+      url_invalid: "URL ji bo karûbarê hilbijartî ne derbasdar e." # Original: URL is not valid for selected service.
+      tag_invalid: "Ev webhook bi etîketeke nederbasdar hatiye sînordarkirin. Qedexe dê derbas nebe. Bawer bikin ku ev armanc e." # Original: This webhook is restricted to an invalid tag. The restriction will not apply. Make sure this is intended.
+
+    nav:
+      desc: "Ji bo foruma we webhookên derketinê yên xwerû." # Original: Customizable outgoing webhooks for your forum.
+    settings:
+      debug_label: "Debug" # Original: Debug
+      debug_help: "Têketinên zêde li pelê têketinê Flarum zêde bikin da ku pirsgirêkên bi tevnhook û/an bûyerên ku rast naxebitin ji holê rakin." # Original: Add extra logs to the Flarum log file to debug issues with webhooks and/or events not working corectly.
+
+      item:
+        tag_any_label: "Herçiyek" # Original: Any
+
+      help:
+        disabled: This webhook is disabled because it doesn't have any events enabled.
+        general: "Li vir hûn dikarin webhookan ji foruma xwe zêde bikin, biguherînin û jê bikin." # Original: Here you can add, edit, and remove webhooks from your forum.
+        url: The webhook's endpoint to be executed
+
+      modal:
+        title: "Mîhengên Webhook" # Original: Webhook Settings
+        description: "Li vir hûn biguherînin ka çi bûyeran ku webhook li ser tê avêtin." # Original: Here you modify what events the webhook is fired on.
+
+        use_plain_text_label: "Di naveroka postê de hêjeya formatkirinê kêm bikin" # Original: Reduce amount of formatting in post content
+
+        max_post_content_length_label: "Herî zêde Dirêjahiya Naveroka Postê" # Original: Maximum Post Content Length
+        max_post_content_length_help: "Hejmarek destnîşan bikin ku naveroka postê di hemî bûyerên piştî-girêdayî de sînordar bike. Biguherînin 0 an tiştek tune ku sînor jêbirin." # Original: Set a number to limit the post content in all post-related events. Change to 0 or nothing to remove limit.
+
+        extra_text_label: "Extra Text" # Original: Extra Text
+        extra_text_help: "Nivîsara Zêde ya ku di webhook-a şandî de tê de hebe." # Original: Extra text to include in the sent webhook.
+
+        group_label: "Kom" # Original: Group
+        group_help: "Çavkaniyên ku ji hêla vê komê ve têne dîtin bişînin" # Original: Send resources that can be seen by this group
+
+        events_label: "Events" # Original: Events
+
+      services:
+        discord: "Dijberî" # Original: Discord
+        slack: "Slack" # Original: Slack
+        microsoft-teams: "Tîmên Microsoft" # Original: Microsoft Teams
+
+      actions:
+        flarum:
+          discussion:
+            title: "Gotûbêja Flarum" # Original: Flarum Discussion
+
+            started: "Dest pê kir" # Original: Started
+            renamed: => fof-webhooks.ref.renamed
+            hidden: => fof-webhooks.ref.hidden
+            restored: => fof-webhooks.ref.restored
+            deleted: => fof-webhooks.ref.deleted
+
+          group:
+            title: "Koma Flarum" # Original: Flarum Group
+
+            created: "Afirandin" # Original: Created
+            renamed: => fof-webhooks.ref.renamed
+            deleted: => fof-webhooks.ref.deleted
+
+          post:
+            title: "Flarum Post" # Original: Flarum Post
+
+            posted: "Posted" # Original: Posted
+            revised: "Edited" # Original: Edited
+            hidden: => fof-webhooks.ref.hidden
+            restored: => fof-webhooks.ref.restored
+            deleted: => fof-webhooks.ref.deleted
+
+          user:
+            title: "Bikarhêner Flarum" # Original: Flarum User
+
+            registered: "Qeyd kirin" # Original: Registered
+            renamed: => fof-webhooks.ref.renamed
+            deleted: => fof-webhooks.ref.deleted
+
+  ref:
+    deleted: "Jêbirin" # Original: Deleted
+    hidden: "Veşartî" # Original: Hidden
+    renamed: "Binavkirin" # Original: Renamed
+    restored: "Restored" # Original: Restored

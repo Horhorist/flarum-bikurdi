@@ -1,0 +1,26 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+askvortsov-discussion-templates:
+  admin:
+    permissions:
+      manage_own_discussion_reply_templates: "Ji bo nîqaşên wan şablonên bersivê birêve bibin" # Original: Manage reply templates for their discussions
+      manage_all_reply_templates: "Ji bo hemî nîqaşan şablonên bersivê birêve bibin" # Original: Manage reply templates for all discussions
+    settings:
+      no_tag_template: "Şablonek xwerû (dema ku nîqaş bê bijartî dest pê kir tê bikar anîn):" # Original: Default template (used when discussion started with no tags selected):
+      append_template_on_tag_change: "Li ser guhertina tagê şablonê were zêdekirin?" # Original: Append template on tag change?
+      append_template_on_tag_change_help: When tags are changed, should the new tag's template be appended even if the user has already started writing? Regardless of this setting, if tags are changed and the user has not made modifications, the template will be switched.
+    tags:
+      tag_template_heading: "Şablon Gotûbêja" # Original: Discussion Template
+      tag_template_text: "Di vê tagê de ji bo nîqaşên nû şablonek birêve bibin." # Original: Manage a template for new discussions in this tag.
+      tag_template_button: "Şablon biguherîne" # Original: Edit Template
+    tag_template_modal:
+      title: "Şablon Gotûbêja" # Original: Discussion Template
+      customize_text: "Di vê tagê de ji bo nîqaşên nû şablonek birêve bibin." # Original: Manage a template for new discussions in this tag.
+      submit_button: "Save Şablon" # Original: Save Template
+
+  forum:
+    discussion_controls:
+      reply_template_button: "Biguherîne Şablon Reply" # Original: Edit Reply Template
+    reply_template:
+      title: "Biguherîne Şablon Reply" # Original: Edit Reply Template
+      submit_button: "Save Reply Şablon" # Original: Save Reply Template

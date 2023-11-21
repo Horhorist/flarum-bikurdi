@@ -1,0 +1,21 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-forum-statistics-widget:
+  forum:
+    navbar:
+      widget_title: "Statîstîkên Forumê" # Original: Forum Statistics
+      discussions_count: "Discussions: {discussionsCount}"
+      posts_count: "Posts: {postsCount}"
+      users_count: "Members: {usersCount}"
+      latest_member: "Endamê herî dawî:" # Original: Latest Member: 
+  admin:
+    settings:
+      widget_ignore_private_discussions_label: "Guftûgoyên Taybetî paşguh nekin" # Original: Ignore Private Discussions
+      widget_order_label: "Widget Order" # Original: Widget Order
+      widget_helper_text: "Edit this setting to adjust this widget's position on the sidenav section of your Flarum forum.
+      The higher the number, the higher this widget will be on the sidenav items list (this value can be either positive or negative)."
+    permissions:
+      view_discussions_count_label: "Jimara nîqaşên widgetê statîstîkên forumê bibînin" # Original: View forum statistics widget discussions count
+      view_posts_count_label: "Hejmara peyamên widgeta statîstîkên forumê bibînin" # Original: View forum statistics widget posts count
+      view_users_count_label: "Hejmara bikarhênerên widgeta statîstîkên forumê bibînin" # Original: View forum statistics widget users count
+      view_lastest_member_label: "Endamê herî dawî yê widgeta statîstîkên forumê bibînin" # Original: View forum statistics widget latest member

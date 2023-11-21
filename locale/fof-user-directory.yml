@@ -1,0 +1,38 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-user-directory:
+    forum:
+        header:
+            back_to_user_directory_tooltip: "Vegere Pelrêça Bikarhêner" # Original: Back to User Directory
+
+        search:
+            users_heading: 'Search all users for "{query}"'
+            field:
+                placeholder: "Li hemî bikarhêneran bigerin" # Original: Search all users
+        page:
+            nav: "Directory Bikarhêner" # Original: User Directory
+            refresh_tooltip: => core.forum.index.refresh_tooltip
+            load_more_button: => core.ref.load_more
+            empty_text: "Me nekarî bikarhênerek li gorî lêgerîna we peyda bike." # Original: We could not find any user matching your search.
+            filter_button: "Komên Parzûnê" # Original: Filter Groups
+
+    admin:
+        permissions:
+            view_user_directory: "Peldanka bikarhêner bibînin" # Original: View user directory
+        settings:
+            link: "Ji bo bikarhênerên ku dikarin pelrêçê bibînin lînkê li ser rûpelê malê zêde bikin" # Original: Add link on homepage for users able to see the directory
+            default-sort: "Rêzkirina standard" # Original: Default sort
+            use-small-cards: "Kartên bikarhêner ên piçûk bikar bînin" # Original: Use small user cards
+
+    lib:
+        sort:
+            not_specified: "Flarum standard bikar bînin" # Original: Use Flarum default
+            default: "Destçûnî" # Original: Default
+            username_az: "Navê bikarhêner (a-z)" # Original: Username (a-z)
+            username_za: "Navê bikarhêner (z-a)" # Original: Username (z-a)
+            newest: "Newest" # Original: Newest
+            oldest: "Oldest" # Original: Oldest
+            most_posts: "Piraniya postan" # Original: Most posts
+            least_posts: "Mesajên herî kêm" # Original: Least posts
+            most_discussions: "Piraniya nîqaşan" # Original: Most discussions
+            least_discussions: "Nîqaşên herî kêm" # Original: Least discussions

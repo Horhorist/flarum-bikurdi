@@ -1,0 +1,55 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-drafts:
+  admin:
+    permissions:
+      start: "Pêşnûmeyan çêbikin" # Original: Create drafts
+      schedule: "Pêşniyarên bernameyê" # Original: Schedule drafts
+    settings:
+      title: "Pêşnûmeyên FoF" # Original: FoF Drafts
+      enable_scheduled_drafts: "Pêşnûmeyên Plansazkirî çalak bikin" # Original: Enable Scheduled Drafts
+      schedule_on_one_server: Use 'onOneServer()' directive for the task scheduler (requires Redis/Memcache)
+      schedule_log_output: "Hilbera plansazker li hilanîna têketinê zêde bikin" # Original: Append scheduler output to log storage
+  console:
+    scheduled_drafts_disabled: "Pêşnûmeyên plansazkirî niha di mîhengan de neçalak in." # Original: Scheduled drafts are currently disabled in settings.
+  ref:
+    schedule_draft: "Pêşnûmeya bernameyê" # Original: Schedule draft
+  forum:
+    composer:
+      title: "Pêşnuma tomar kirin" # Original: Save Draft
+      saving: "Sazkirin..." # Original: Saving...
+      saved: "Saved!" # Original: Saved!
+      exit_alert: "Guherandinên ji bo pêşnûmeyê bên avêtin?" # Original: Discard changes to draft?
+      discard_empty_draft_alert: "Pêşnûmeya vala were avêtin?" # Original: Discard empty draft?
+    dropdown:
+      empty_text: You haven't saved any drafts
+      title: "Drafts" # Original: Drafts
+      delete_all_button: "Hemî pêşnûmeyan jêbirin" # Original: Delete all drafts
+      delete_button: "Pêşnûmeya jêbirin" # Original: Delete draft
+      schedule_button: => fof-drafts.ref.schedule_draft
+      scheduled_icon_tooltip: Scheduled for {datetime}
+      # String passed to dayjs.format() to generate the tooltip date-time
+      scheduled_icon_tooltip_formatter: "L [li] LT" # Original: L [at] LT
+      tooltip: => fof-drafts.forum.dropdown.title
+      alert: "Ma tu bi rastî dixwazî ​​pêşnûmeya xwe jê bibî?" # Original: Are you sure you want to delete your draft?
+      delete_all_alert: "Ma hûn guman dikin ku hûn dixwazin hemî pêşnivîsên xwe jêbikin?" # Original: Are you sure you want to delete all your drafts?
+    schedule_draft_modal:
+      title: => fof-drafts.ref.schedule_draft
+      text: "Pêşnûmeya xwe plansaz bikin ku di demek paşîn de bixweber bişînin!" # Original: Schedule your draft to automatically post at a later time!
+      scheduled_text: Currently scheduled to post on {datetime}.
+      scheduled_error: "Unable to schedule draft: {error}."
+      unschedule_button: "Betal kirin" # Original: Unschedule
+      unschedule_warning: "Ma hûn pê bawer in ku hûn dixwazin vê pêşnûmeyê betal bikin?" # Original: Are you sure you want to unschedule this draft?
+      reschedule_button: "Demanî tarloqkirin" # Original: Reschedule
+      schedule_button: "Pîlan" # Original: Schedule
+      schedule_time_preview: This draft will be automatically published on <b>{datetime}</b>.
+      # String passed to dayjs.format() to generate the preview
+      schedule_time_preview_formatter: "LLLL" # Original: LLLL
+      schedule_time_preview_invalid: "Dîrok û/an dem nederbasdar" # Original: Invalid date and/or time
+    user:
+      settings:
+        drafts_heading: "Drafts" # Original: Drafts
+        draft_autosave_enable: "Pêşnûmeya Xweserparêz çalak bike?" # Original: Enable Draft Autosave?
+        draft_autosave_interval_label: "Navbera Xweserî (çirk)" # Original: Autosave Interval (seconds)
+        draft_autosave_interval_button: "Navbera nûvekirinê" # Original: Update Interval
+        draft_autosave_interval_invalid: "Navber divê ji 4-ê mezintir be." # Original: The interval must be an integer greater than 4.

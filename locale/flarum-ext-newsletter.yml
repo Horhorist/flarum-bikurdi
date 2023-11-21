@@ -1,0 +1,15 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-newsletter:
+  admin:
+    pubacc: "Nasnameya Hesabê Giştî" # Original: Public Account ID
+    pubaccdesc: "Nasnameya hesabê xweya giştî li vir bibînin https://elasticemail.com/account#/account/security" # Original: Find your public account ID here https://elasticemail.com/account#/account/security
+    listn: "Navê Lîsteyê" # Original: List Name
+    listndesc: "Navê navnîşa xweya ku li elasticmail hatî çêkirin zêde bikin" # Original: Add the name of your list created at elasticmail
+  forum:
+    subscribe: "Aboneyê bultena me bibin. Ji kerema xwe e-nameya xwe binivîse û bişkojka şandinê bike." # Original: Subscribe to our newsletter. Please enter your email and press submit.
+    submitbutton: "Nermijîn" # Original: Submit
+    modalthanku: "Sipas ji were!" # Original: Thank You!
+    modaltext: "Tu niha aboneyê bultena me yî." # Original: You are now subscribed to our newsletter.
+    accept: "Ez dixwazim bibim abone" # Original: I wish to subscribe
+    prconsent: "Raza nepenîtiyê" # Original: Privacy Consent

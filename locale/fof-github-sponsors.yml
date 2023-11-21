@@ -1,0 +1,15 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-github-sponsors:
+  admin:
+    account_types:
+      user: "Bikaranîvan" # Original: User
+      organization: "Sazûman" # Original: Organization
+
+    settings:
+      desc: "Nîşana API-ya xwe ji <a>https://github.com/settings/tokens/new</a> bistînin. Ji bo vê pêvekirinê pêdiviya <code>bikarhêner</code> û <code>read:org</code> heye." # Original: Obtain your API token from <a>https://github.com/settings/tokens/new</a>. This extension requires the <code>user</code> and <code>read:org</code> scopes.
+
+      api_token_label: "API Token" # Original: API Token
+      account_type_label: "Tîpa Hesabê" # Original: Account Type
+      login_label: "Login" # Original: Login
+      group_label: "Kom ji bo Assign" # Original: Group to Assign

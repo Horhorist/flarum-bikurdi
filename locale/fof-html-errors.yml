@@ -1,0 +1,13 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+fof-html-errors:
+    admin:
+        settings:
+            error:
+                403: "403 Qedexe kirin" # Original: 403 Forbidden
+                404: "404 nehat dîtin" # Original: 404 Not Found
+                500: "500 Çewtiya Pêşkêşkara Navxweyî" # Original: 500 Internal Server Error
+                503: "Xizmeta 503 Ne Berdest e (Ji Bo Maintenance jêre)" # Original: 503 Service Unavailable (Down For Maintenance)
+
+            placeholder:
+                empty_for_default: "Ji bo rûpela xeletiya Flarum ya xwerû vala bihêlin" # Original: Leave empty for the default Flarum error page

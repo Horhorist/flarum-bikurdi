@@ -1,0 +1,12 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+flarum-ext-purify:
+  forum:
+    obscure: "[Paqijkirin]" # Original: [Purified]
+  admin:
+    additem: "Peyva Xirab li Array zêde bikin" # Original: Add Bad Word to the Array
+    additemdesc: "her peyvê bi komê veqetînin (mînak peyva 1, peyv2, peyv3,)" # Original: separate each word by comma (e.g. word1,word2,word3,)
+    hidemail: "Navnîşana E-nameyê Veşêre Xweser" # Original: Auto Hide Email Address
+    customreg: "Îfadeya birêkûpêk a xwerû bikar bînin" # Original: Use custom Regular Expression
+    customregexp: "Custom Regexp bikar bînin" # Original: Use Custom Regexp
+    customregexpdesc: "Gotina xweya birêkûpêk a ku bi hewcedariyên we re têkildar e li vir bicîh bikin (mînak (flarum | çêtirîn | dirêjkirin) da ku van 3 peyvan veşêrin)" # Original: Put here your regular expression that match your needs (e.g. (flarum|best|extension) to hide these 3 words)

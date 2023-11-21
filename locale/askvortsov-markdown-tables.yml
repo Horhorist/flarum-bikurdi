@@ -1,0 +1,18 @@
+# Automatically translated with https://github.com/CWKevo/flarum-language-generator
+
+askvortsov-markdown-tables:
+  lib:
+    composer:
+      table_menu:
+        num_cols: "# Stûn" # Original: # Columns
+        num_rows: "# Rêz (tevî sernivîsê)" # Original: # Rows (including header)
+        label_cells: "# Hucreyên nîşankirinê?" # Original: # Label cells?
+        column: "Ling" # Original: Column
+        remove_column: "Stûnê rake" # Original: Remove column
+        insert_column_before: "Berê stûnê têxe" # Original: Insert column before
+        insert_column_after: "Piştî stûnê têxe" # Original: Insert column after
+        row: "Bêrkirin" # Original: Row
+        remove_row: "Rêzê rakin" # Original: Remove row
+        insert_row_before: "Berê rêzê têxe" # Original: Insert row before
+        insert_row_after: "Piştî rêzê têxe" # Original: Insert row after
+      table_tooltip: "Mêz" # Original: Table
