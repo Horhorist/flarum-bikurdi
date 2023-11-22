@@ -1,4 +1,4 @@
-The Kurdish language pack made by third parties is now available. 
+The Kurdish language pack made by me is now available. 
 
 
 **INSTALLATION**
